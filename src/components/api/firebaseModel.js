@@ -1,5 +1,6 @@
 import { db } from "./firebaseInit";
-import { collection, getDocs, addDoc, deleteDoc, doc } from "firebase/firestore";
+import { collection, getDocs, addDoc, deleteDoc, doc, query, where, orderBy } from "firebase/firestore";
+import store from '../../store';
 
 export default class firebaseModel {
 
@@ -9,7 +10,8 @@ export default class firebaseModel {
 
     async fetch () {
         let list = [];
-        const querySnapshot = await getDocs(this.taskRef);
+        let q = query(this.taskRef,  orderBy("priority"));
+        const querySnapshot = await getDocs(q);
 
         querySnapshot.forEach((d) => {
             const data = {
@@ -23,7 +25,50 @@ export default class firebaseModel {
 
         return list;
     }
-    
+
+    async fetchValue (value) {
+        let q = '';
+        let list = [];
+        if (value) {
+            q = query(this.taskRef,  where("priority", "==", value));
+        } else {
+            q = query(this.taskRef,  orderBy("priority"));
+        }
+        const querySnapshot = await getDocs(q);
+
+        querySnapshot.forEach((d) => {
+            const data = {
+                'id' : d.id,
+                'day' : this.getDate (d.data().day),
+                'text' : d.data().text,
+                'priority' : d.data().priority
+            }
+            list.push(data);
+        });
+
+        return list;
+    }
+    async sortToggle (sort) {
+      
+        let q = '';
+        let list = [];
+        q = query(this.taskRef,  orderBy("priority", sort));
+        
+        const querySnapshot = await getDocs(q);
+
+        querySnapshot.forEach((d) => {
+            const data = {
+                'id' : d.id,
+                'day' : this.getDate (d.data().day),
+                'text' : d.data().text,
+                'priority' : d.data().priority
+            }
+            list.push(data);
+        });
+
+        return list;
+    }
+
     getDate (d) { 
         var a = new Date(d.split('-'));
         var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];

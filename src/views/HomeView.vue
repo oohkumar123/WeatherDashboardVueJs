@@ -5,10 +5,6 @@
 
 		<div class="container-fluid page-body-wrapper">
 			
-			<RightSideBar></RightSideBar>
-            
-			<SideBar></SideBar>
-
             <MainPanel></MainPanel>
         
 		</div>
@@ -18,16 +14,14 @@
 
 <script>
 import NavBar from "../components/NavBar";
-import SideBar from "../components/SideBar.vue";
-import RightSideBar from "../components/RightSideBar.vue";
-import MainPanel from "../components/MainPanel.vue";
+import SideBar from "../components/SideBar";
+import MainPanel from "../components/MainPanel";
 
 export default {
     name: "HomeView",
     components: {
 		NavBar,
 		SideBar,
-		RightSideBar,
 		MainPanel
 	},
 };

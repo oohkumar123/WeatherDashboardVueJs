@@ -2,30 +2,30 @@
     <div class="card">
         <div class="card-body">
             <form action="#" class="todo-form" @submit.prevent="submit">
+                <div class="form-group message" v-if="showmessage">
+                    <p>Please fill in all the fields</p>
+                </div>
                 <div class="form-group" ref="day">
                     <label>Day</label>
                     <input
                         type="date"
                         class="form-control"
-                        placeholder="Date"
                         v-model="day"
                     />
                 </div>
-                <div class="form-group">
+                <div class="form-group" ref="priority">
                     <label for="exampleFormControlSelect3">Priority</label>
                     <select class="form-control form-control-sm" v-model="priority">
-                        <option>Select</option>
-                        <option value="high">High</option>
-                        <option value="medium">Medium</option>
-                        <option value="low">Low</option>
+                        <option value="a">High</option>
+                        <option value="b">Medium</option>
+                        <option value="c">Low</option>
                     </select>
                 </div>                
-                <div class="form-group">
+                <div class="form-group" ref="text">
                     <label>Text</label>
                     <textarea
                         type="text"
                         class="form-control"
-                        placeholder="Text"
                         v-model="text"
                         rows="4">
                     </textarea>
@@ -45,37 +45,50 @@ export default {
         return {
             day: '',
             priority: 'high',
-            text: 'hello'
+            text: '',
+            showmessage: false
         };
     },
     props: ["list"],
     methods: {
         async submit(e) {
+            this.showmessage = false;
+            this.$refs["day"].classList.remove('highlight')
+            this.$refs["text"].classList.remove('highlight')
+
+            
             if (this.day=='') {
-                //console.info('%c%o', 'color: red;font-size:12px', 'Here I am');
-                console.info('%cthis.day: %o', 'color: red;font-size:12px', this.$refs["day"]);
                 this.$refs["day"].classList.add('highlight')
+                this.showmessage = true;
+                return false;
+            } else if (this.text=='') {
+                this.$refs["text"].classList.add('highlight')
+                this.showmessage = true;
+                return false;
             } else {
                 this.$emit('add-todo-db', this);
-
                 this.day = '';
                 this.priority = '';
                 this.text = '';      
             }
-            
-            
-            
         }
-    },
+    }
 };
 </script>
 <style scoped lang="scss">
 .todo-form {
     .form-group {
         &.highlight {
-            background-color: red;
+            border: 1px solid red;
+            padding: 10px;
         }
-
+        &.message {
+            margin-bottom: 0;
+            p {
+                margin-bottom: 0;
+                color: red;
+            }
+        }
     }
 }
 

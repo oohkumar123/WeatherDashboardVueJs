@@ -24,12 +24,45 @@
 
 export default {
     name: "PerformanceLineChart",
-    props: ['salesData'],    
+    props: [],
+    data() {
+        return {};
+    },
     mounted () {
-        this.drawChart(this.salesData);
+        this.drawChart();
     },
     methods: {
-        drawChart: (salesData)=>{
+        async drawChart() {
+            let data = await this.$store.getters.getWeatherData;
+            let salesData = {
+                labels: [],
+                thisWeek: {
+                    label: "Daily Highs",
+                    data: []
+                },
+                lastWeek: {
+                    label: "Daily Lows",
+                    data: []
+                },
+            };
+            let week = [];
+            let thisWeekData = [];
+            let lastWeekData = [];
+            
+            data.daily.forEach((d) =>{
+            
+                var date = new Date(d.dt * 1000);
+                let weekday = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'][date.getDay()]
+                week.push(weekday);
+                
+                thisWeekData.push(d.temp.max);
+                lastWeekData.push(d.temp.min);
+            
+            });
+            salesData.labels = week;
+            salesData.thisWeek.data = thisWeekData;
+            salesData.lastWeek.data = lastWeekData;
+            
             var graphGradient = document.getElementById("performaneLine").getContext("2d");
             var graphGradient2 = document.getElementById("performaneLine").getContext("2d");
             var saleGradientBg = graphGradient.createLinearGradient(5, 0, 5, 100);
@@ -120,7 +153,6 @@ export default {
                     text.push("</ul></div>");
                     return text.join("");
                 },
-
                 elements: {
                     line: {
                         tension: 0.4,
@@ -143,4 +175,5 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+
 </style>

@@ -1,14 +1,26 @@
+
+Monday
+-- convert mutation to action
+-- Rain amounts last few months
+
+
+
 Todo List
--- form validation
--- sort function by priority, name, date
--- reforemat
+
+-- reformat
 -- correct type input fields
 -- refactor graphs
 -- style better
 -- create map model
 
+Features
+rain amounts last few months
+
 
 -- install vuex
 -- use vuex to put data into header eg latest note or today's weather
 
+
 Next weather tracker
+
+if firevase stops working through lack of use then update the rules: https://console.firebase.google.com/project/vue-fs-prod-7641b/firestore/rules

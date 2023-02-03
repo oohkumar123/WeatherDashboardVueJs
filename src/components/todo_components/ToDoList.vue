@@ -5,7 +5,7 @@
         <div class="card-body">
             <div class="row">
                 <div class="col-lg-12">
-                    <todoHeader @show-add-form="showAddForm"></todoHeader>
+                    <todoHeader @show-add-form="showAddForm" @display-value="displayValue" @sort-toggle="sortToggle"></todoHeader>
                     
                     <todoAddForm v-show="!showForm" @add-todo-db="addToDos"></todoAddForm>
                     <todoListItems :list="list" v-show="showForm" @delete-todo-db="deleteToDos"></todoListItems>
@@ -60,7 +60,18 @@ export default {
                 this.fetchToDos ();
             });
         },
-        
+        displayValue (sort) {
+            this.fbm.fetchValue(sort).then ((data)=>{
+                this.list = data;
+            });
+        },
+        sortToggle () {
+            this.$store.dispatch('changeSortDirection');
+            let sort = this.$store.getters.getSortDirection;
+            this.fbm.sortToggle(sort).then ((data)=>{
+                this.list = data;
+            });
+        },
         // supporting functions
         showAddForm () {
             this.showForm = !this.showForm;
