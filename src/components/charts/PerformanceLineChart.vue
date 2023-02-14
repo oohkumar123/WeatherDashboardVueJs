@@ -5,7 +5,7 @@
             <div class="d-sm-flex justify-content-between align-items-start">
                 <div>
                     <h4 class="card-title card-title-dash">
-                        Daily Temperature
+                        Daily Temperatures
                     </h4>
                     <h5 class="card-subtitle card-subtitle-dash">
                         Keeping track of upcoming temperatures

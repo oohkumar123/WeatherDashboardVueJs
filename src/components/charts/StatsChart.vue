@@ -38,7 +38,7 @@ export default {
             this.latitude = data.lat
             this.longitude = data.lon
             this.timezone = data.timezone
-            this.timezone_offset = data.timezone_offset
+            this.timezone_offset = (data.timezone_offset / 3600) + ' hours'
         }
     }
 };
