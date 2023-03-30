@@ -1,3 +1,6 @@
+If Firebase stops working through lack of use then update the rules: https://console.firebase.google.com/project/vue-fs-prod-7641b/firestore/rules
+-------------------------------
+
 
 Monday
 -- convert mutation to action
@@ -23,4 +26,3 @@ rain amounts last few months
 
 Next weather tracker
 
-if firevase stops working through lack of use then update the rules: https://console.firebase.google.com/project/vue-fs-prod-7641b/firestore/rules

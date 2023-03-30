@@ -8,21 +8,11 @@
                 </div>
                 <div>
                     <div class="dropdown">
-                        <button
-                            class="btn btn-secondary dropdown-toggle toggle-dark btn-lg mb-0 me-0"
-                            type="button"
-                            id="dropdownMenuButton2"
-                            data-bs-toggle="dropdown"
-                            aria-haspopup="true"
-                            aria-expanded="false"
-                        >
-                            This week
-                        </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-                            <a class="dropdown-item" href="#">Sunrise</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Sunset</a>
-                        </div>
+                        <select class="btn btn-secondary dropdown-toggle toggle-dark btn-lg mb-0 me-0 pe-1" @change="switchSelect($event)">
+                            <option value="Day">Day</option>
+                            <option value="Sunrise">Sunrise</option>
+                            <option value="Sunset">Sunset</option>
+                        </select>
                     </div>
                 </div>
             </div>
@@ -54,7 +44,7 @@ export default {
             subTitle: 'One weeks worth of sunrise and sunset data',
             weatherData: [],
             formattedSunrise: '',
-            formattedSunset: '',
+            formattedSunset: ''
             
         }
     }, 
@@ -66,8 +56,20 @@ export default {
         this.todaysSunsetSunrise();
     },
     methods: {
+        switchSelect(evt) {
+            this.selected = evt.target.value
+            if (this.selected ==='Sunrise') {
+                this.drawChart('sunrise');
+            } else if (this.selected ==='Sunset') {
+                this.drawChart('sunset');
+            } else if (this.selected ==='Day') {
+                this.drawChart('day');
+            }
+        },
 
-        async drawChart() {
+        async drawChart(timePeriod) {
+            console.info('%ctimePeriod: %o', 'color: red;font-size:12px', timePeriod);
+            
             if ($("#marketingOverview").length) {
                 
                 let data = await this.$store.getters.getWeatherData;
@@ -104,9 +106,6 @@ export default {
                     sunsetData.push(gotTime);
                 });
                 
-                // how do we convert time to 12 hour clock
-                // how do we add in zero padding where necesssary
-                // how do we add colons in legend
                 
                 salesData.labels = week;
                 salesData.sunrise.data = sunriseData;
@@ -115,25 +114,22 @@ export default {
                 var marketingOverviewChart = document.getElementById("marketingOverview").getContext("2d");
                 var marketingOverviewData = {
                     labels: salesData.labels,
-                    datasets: [
-                        {
-                            label: salesData.sunrise.label,
-                            data: salesData.sunrise.data,
-                            backgroundColor: "#52CDFF",
-                            borderColor: ["#52CDFF"],
-                            borderWidth: 0,
-                            fill: true, // 3: no fill
-                        },
-                        {
-                            label: salesData.sunset.label,
-                            data: salesData.sunset.data,
-                            backgroundColor: "#1F3BB3",
-                            borderColor: ["#1F3BB3"],
-                            borderWidth: 0,
-                            fill: true, // 3: no fill
-                        },
-                    ],
+                    datasets: [],
                 };
+                
+                const sunrise = {label: salesData.sunrise.label, data: salesData.sunrise.data, backgroundColor: "#52CDFF", borderColor: ["#52CDFF"], borderWidth: 0, fill: true }
+                const sunset = {label: salesData.sunset.label, data: salesData.sunset.data, backgroundColor: "#1F3BB3", borderColor: ["#1F3BB3"], borderWidth: 0, fill: true}
+                
+                if (timePeriod==='sunrise') {
+                    marketingOverviewData.datasets.push(sunrise)
+                } else if (timePeriod==='sunset') {
+                    marketingOverviewData.datasets.push(sunset)
+                } else {
+                    marketingOverviewData.datasets.push(sunrise)
+                    marketingOverviewData.datasets.push(sunset)
+                }
+                
+                console.info('%cmarketingOverviewData: %o', 'color: red;font-size:12px', marketingOverviewData);
 
                 var marketingOverviewOptions = {
                     responsive: true,

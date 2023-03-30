@@ -15,7 +15,9 @@ export default createStore({
         },
         getWeatherData: async () => {
             return fetch("https://api.openweathermap.org/data/3.0/onecall?lat=37.9060&lon=-122.5450&units=imperial&exclude=minutely&appid=8362d7576fff036a08554d81480c7689")
-            .then((response) => {response.json(); console.info('%cresponse.json(): %o', 'color: red;font-size:12px', response.json());})
+            .then((response) => {
+                return response.json();
+            })
         },
         getTimeConverter: (state) => {
             return state.time;

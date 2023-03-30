@@ -1,0 +1,1798 @@
+
+> dashboard@0.1.0 build
+> vue-cli-service build
+
+All browser targets in the browserslist configuration have supported ES module.
+Therefore we don't build two separate bundles for differential loading.
+
+
+ WARNING  Compiled with 2 warnings11:09:13 AM
+
+ warning  
+
+asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+This can impact web performance.
+Assets: 
+  js/chunk-vendors.9092749e.js (422 KiB)
+  js/mapael_example_1.js (291 KiB)
+  css/vertical-layout-light/style.css (898 KiB)
+  images/auth/register-bg.jpg (269 KiB)
+  pages/icons/mdi.html (294 KiB)
+  vendors/codemirror/codemirror.js (391 KiB)
+  vendors/dropzone/dropzone.js (333 KiB)
+  vendors/quill/quill.min.js.map (983 KiB)
+  vendors/simplemde/simplemde.min.js (263 KiB)
+  vendors/tinymce/tinymce.js (1.03 MiB)
+  vendors/tinymce/tinymce.min.js (383 KiB)
+  vendors/typicons/typicons.svg (287 KiB)
+  css/maps/horizontal-layout-dark/style.css.map (1.39 MiB)
+  css/maps/horizontal-layout-light/style.css.map (1.37 MiB)
+  css/maps/vertical-layout-dark/style.css.map (1.42 MiB)
+  css/maps/vertical-layout-light/style.css.map (1.46 MiB)
+  vendors/ace-builds/src-min/ace.js (363 KiB)
+  vendors/ace-builds/src-min/mode-php.js (463 KiB)
+  vendors/ace-builds/src-min/mode-php_laravel_blade.js (468 KiB)
+  vendors/ace-builds/src-min/worker-coffee.js (315 KiB)
+  vendors/ace-builds/src-min/worker-javascript.js (495 KiB)
+  vendors/ace-builds/src-min/worker-xquery.js (1.55 MiB)
+  vendors/font-awesome/fonts/fontawesome-webfont.svg (434 KiB)
+  vendors/mdi/fonts/materialdesignicons-webfont.eot (648 KiB)
+  vendors/mdi/fonts/materialdesignicons-webfont.ttf (647 KiB)
+  vendors/mdi/fonts/materialdesignicons-webfont.woff (312 KiB)
+  vendors/summernote/dist/summernote-0.8.20-dist.zip (1.39 MiB)
+  vendors/summernote/dist/summernote-bs4.js (317 KiB)
+  vendors/summernote/dist/summernote-bs4.js.map (549 KiB)
+  vendors/summernote/dist/summernote-bs5.js (317 KiB)
+  vendors/summernote/dist/summernote-bs5.js.map (549 KiB)
+  vendors/summernote/dist/summernote-lite.js (337 KiB)
+  vendors/summernote/dist/summernote-lite.js.map (587 KiB)
+  vendors/summernote/dist/summernote.js (317 KiB)
+  vendors/summernote/dist/summernote.js.map (549 KiB)
+  vendors/flag-icon-css/flags/1x1/do.svg (382 KiB)
+  vendors/flag-icon-css/flags/4x3/do.svg (385 KiB)
+  vendors/tinymce/plugins/table/plugin.js (392 KiB)
+  vendors/tinymce/themes/mobile/theme.js (428 KiB)
+  vendors/tinymce/themes/silver/theme.js (1.05 MiB)
+  vendors/tinymce/themes/silver/theme.min.js (394 KiB)
+  vendors/tinymce/plugins/emoticons/js/emojiimages.js (471 KiB)
+  vendors/tinymce/plugins/emoticons/js/emojiimages.min.js (411 KiB)
+  vendors/tinymce/plugins/emoticons/js/emojis.js (253 KiB)
+
+ warning  
+
+entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+Entrypoints:
+  app (456 KiB)
+      js/chunk-vendors.9092749e.js
+      css/app.8249529c.css
+      js/app.039000af.js
+
+
+  File                                      Size             Gzipped
+
+  weather-dashboard/vendors/tinymce/plug    411.45 KiB       37.78 KiB
+  ins/emoticons/js/emojiimages.min.js
+  weather-dashboard/vendors/tinymce/them    393.73 KiB       121.68 KiB
+  es/silver/theme.min.js
+  weather-dashboard/vendors/tinymce/tiny    382.68 KiB       131.23 KiB
+  mce.min.js
+  weather-dashboard/vendors/simplemde/si    263.00 KiB       85.33 KiB
+  mplemde.min.js
+  weather-dashboard/vendors/quill/quill.    211.26 KiB       45.84 KiB
+  min.js
+  weather-dashboard/vendors/tinymce/plug    193.44 KiB       29.79 KiB
+  ins/emoticons/js/emojis.min.js
+  weather-dashboard/vendors/chart.js/Cha    169.02 KiB       51.67 KiB
+  rt.min.js
+  weather-dashboard/vendors/summernote/d    161.04 KiB       39.44 KiB
+  ist/summernote-lite.min.js
+  weather-dashboard/vendors/tinymce/them    156.00 KiB       48.46 KiB
+  es/mobile/theme.min.js
+  weather-dashboard/vendors/summernote/d    149.44 KiB       37.05 KiB
+  ist/summernote-bs4.min.js
+  weather-dashboard/vendors/summernote/d    149.40 KiB       37.06 KiB
+  ist/summernote-bs5.min.js
+  weather-dashboard/vendors/summernote/d    149.15 KiB       37.00 KiB
+  ist/summernote.min.js
+  weather-dashboard/vendors/tinymce/plug    140.12 KiB       41.66 KiB
+  ins/table/plugin.min.js
+  weather-dashboard/vendors/inputmask/jq    97.10 KiB        28.91 KiB
+  uery.inputmask.min.js
+  weather-dashboard/vendors/raphael/raph    90.98 KiB        31.37 KiB
+  ael.min.js
+  weather-dashboard/vendors/justgage/rap    90.59 KiB        31.34 KiB
+  hael-2.1.4.min.js
+  weather-dashboard/vendors/x-editable/b    74.13 KiB        18.73 KiB
+  ootstrap-editable.min.js
+  weather-dashboard/vendors/select2/sele    69.19 KiB        19.44 KiB
+  ct2.min.js
+  weather-dashboard/vendors/tinymce/icon    62.40 KiB        15.85 KiB
+  s/default/icons.min.js
+  weather-dashboard/vendors/jquery-spark    61.20 KiB        14.54 KiB
+  line/jquery.sparkline.min.js
+  weather-dashboard/vendors/moment/momen    57.48 KiB        18.17 KiB
+  t.min.js
+  weather-dashboard/vendors/lightgallery    55.42 KiB        13.33 KiB
+  /js/lightgallery-all.min.js
+  weather-dashboard/vendors/tinymce/plug    44.63 KiB        14.73 KiB
+  ins/codesample/plugin.min.js
+  weather-dashboard/vendors/ion-rangesli    40.21 KiB        8.57 KiB
+  der/js/ion.rangeSlider.min.js
+  weather-dashboard/vendors/sweetalert/s    39.85 KiB        11.59 KiB
+  weetalert.min.js
+  weather-dashboard/vendors/typeahead.js    38.82 KiB        11.27 KiB
+  /typeahead.bundle.min.js
+  weather-dashboard/vendors/morris.js/mo    34.82 KiB        9.78 KiB
+  rris.min.js
+  weather-dashboard/vendors/bootstrap-da    32.90 KiB        9.84 KiB
+  tepicker/bootstrap-datepicker.min.js
+  weather-dashboard/vendors/jquery-asCol    32.80 KiB        8.10 KiB
+  orPicker/jquery-asColorPicker.min.js
+  weather-dashboard/vendors/tinymce/plug    27.29 KiB        9.63 KiB
+  ins/lists/plugin.min.js
+  weather-dashboard/vendors/jquery-valid    23.86 KiB        7.67 KiB
+  ation/jquery.validate.min.js
+  weather-dashboard/vendors/nouislider/n    22.83 KiB        7.91 KiB
+  ouislider.min.js
+  weather-dashboard/vendors/tinymce/plug    22.04 KiB        8.86 KiB
+  ins/paste/plugin.min.js
+  weather-dashboard/vendors/progressbar.    21.18 KiB        6.72 KiB
+  js/progressbar.min.js
+  weather-dashboard/vendors/tinymce/plug    19.68 KiB        6.90 KiB
+  ins/image/plugin.min.js
+  weather-dashboard/vendors/tinymce/plug    19.00 KiB        6.87 KiB
+  ins/imagetools/plugin.min.js
+  weather-dashboard/vendors/lightgallery    18.51 KiB        5.69 KiB
+  /js/lightgallery.min.js
+  weather-dashboard/vendors/tinymce/plug    17.20 KiB        5.87 KiB
+  ins/textpattern/plugin.min.js
+  weather-dashboard/vendors/tinymce/plug    17.14 KiB        6.36 KiB
+  ins/media/plugin.min.js
+  weather-dashboard/vendors/tinymce/plug    16.09 KiB        5.75 KiB
+  ins/fullscreen/plugin.min.js
+  weather-dashboard/vendors/tinymce/plug    15.36 KiB        5.67 KiB
+  ins/link/plugin.min.js
+  weather-dashboard/vendors/jquery-file-    14.94 KiB        4.80 KiB
+  upload/jquery.uploadfile.min.js
+  weather-dashboard/vendors/tinymce/plug    14.26 KiB        5.77 KiB
+  ins/searchreplace/plugin.min.js
+  weather-dashboard/vendors/tinymce/plug    13.08 KiB        4.66 KiB
+  ins/help/plugin.min.js
+  weather-dashboard/js/dataTables.select    12.26 KiB        3.84 KiB
+  .min.js
+  weather-dashboard/vendors/jquery-asCol    12.10 KiB        4.54 KiB
+  or/jquery-asColor.min.js
+  weather-dashboard/vendors/tinymce/plug    11.82 KiB        5.10 KiB
+  ins/wordcount/plugin.min.js
+  weather-dashboard/vendors/tinymce/plug    11.39 KiB        4.50 KiB
+  ins/charmap/plugin.min.js
+  weather-dashboard/vendors/clipboard/cl    10.43 KiB        3.32 KiB
+  ipboard.min.js
+  weather-dashboard/vendors/jquery.repea    10.30 KiB        3.05 KiB
+  ter/jquery.repeater.min.js
+  weather-dashboard/vendors/dropify/drop    10.27 KiB        2.99 KiB
+  ify.min.js
+  weather-dashboard/vendors/tinymce/plug    9.56 KiB         3.86 KiB
+  ins/spellchecker/plugin.min.js
+  weather-dashboard/vendors/jquery-asGra    9.43 KiB         3.44 KiB
+  dient/jquery-asGradient.min.js
+  weather-dashboard/vendors/tinymce/plug    8.06 KiB         3.32 KiB
+  ins/template/plugin.min.js
+  weather-dashboard/vendors/tinymce/plug    7.64 KiB         2.95 KiB
+  ins/fullpage/plugin.min.js
+  weather-dashboard/vendors/summernote/d    7.53 KiB         2.23 KiB
+  ist/lang/summernote-bn-BD.min.js
+  weather-dashboard/vendors/tinymce/plug    6.72 KiB         2.84 KiB
+  ins/emoticons/plugin.min.js
+  weather-dashboard/vendors/tinymce/jque    6.44 KiB         2.83 KiB
+  ry.tinymce.min.js
+  weather-dashboard/vendors/jquery-tags-    6.42 KiB         2.24 KiB
+  input/jquery.tagsinput.min.js
+  weather-dashboard/vendors/jquery-toast    6.19 KiB         1.70 KiB
+  -plugin/jquery.toast.min.js
+  weather-dashboard/vendors/twbs-paginat    6.07 KiB         1.99 KiB
+  ion/jquery.twbsPagination.min.js
+  weather-dashboard/vendors/summernote/d    6.07 KiB         2.34 KiB
+  ist/lang/summernote-el-GR.min.js
+  weather-dashboard/vendors/summernote/d    5.97 KiB         2.12 KiB
+  ist/lang/summernote-th-TH.min.js
+  weather-dashboard/vendors/tinymce/plug    5.92 KiB         2.52 KiB
+  ins/quickbars/plugin.min.js
+  weather-dashboard/vendors/summernote/d    5.85 KiB         2.21 KiB
+  ist/lang/summernote-ru-RU.min.js
+  weather-dashboard/vendors/tinymce/plug    5.64 KiB         2.41 KiB
+  ins/visualchars/plugin.min.js
+  weather-dashboard/vendors/jquery-bar-r    5.58 KiB         2.02 KiB
+  ating/jquery.barrating.min.js
+  weather-dashboard/vendors/summernote/d    5.36 KiB         1.95 KiB
+  ist/lang/summernote-ta-IN.min.js
+  weather-dashboard/vendors/tinymce/plug    5.21 KiB         2.12 KiB
+  ins/directionality/plugin.min.js
+  weather-dashboard/vendors/summernote/d    5.15 KiB         2.13 KiB
+  ist/lang/summernote-bg-BG.min.js
+  weather-dashboard/vendors/summernote/d    4.90 KiB         2.12 KiB
+  ist/lang/summernote-uk-UA.min.js
+  weather-dashboard/vendors/bootstrap-ma    4.86 KiB         1.85 KiB
+  xlength/bootstrap-maxlength.min.js
+  weather-dashboard/vendors/summernote/d    4.80 KiB         1.93 KiB
+  ist/lang/summernote-ar-AR.min.js
+  weather-dashboard/vendors/summernote/d    4.66 KiB         2.02 KiB
+  ist/lang/summernote-fa-IR.min.js
+  weather-dashboard/vendors/pwstabs/jque    4.64 KiB         1.46 KiB
+  ry.pwstabs.min.js
+  weather-dashboard/vendors/summernote/d    4.63 KiB         2.04 KiB
+  ist/lang/summernote-mn-MN.min.js
+  weather-dashboard/vendors/summernote/d    4.50 KiB         1.97 KiB
+  ist/lang/summernote-en-US.min.js
+  weather-dashboard/vendors/summernote/d    4.41 KiB         2.00 KiB
+  ist/lang/summernote-sr-RS.min.js
+  weather-dashboard/vendors/summernote/d    4.31 KiB         1.84 KiB
+  ist/lang/summernote-es-ES.min.js
+  weather-dashboard/vendors/summernote/d    4.26 KiB         1.83 KiB
+  ist/lang/summernote-fr-FR.min.js
+  weather-dashboard/vendors/summernote/d    4.23 KiB         1.85 KiB
+  ist/lang/summernote-az-AZ.min.js
+  weather-dashboard/vendors/summernote/d    4.13 KiB         1.84 KiB
+  ist/lang/summernote-tr-TR.min.js
+  weather-dashboard/vendors/summernote/d    4.09 KiB         1.92 KiB
+  ist/lang/summernote-ko-KR.min.js
+  weather-dashboard/vendors/summernote/d    4.05 KiB         1.75 KiB
+  ist/lang/summernote-ro-RO.min.js
+  weather-dashboard/vendors/summernote/d    4.02 KiB         1.77 KiB
+  ist/lang/summernote-pt-PT.min.js
+  weather-dashboard/vendors/summernote/d    4.01 KiB         1.90 KiB
+  ist/lang/summernote-lt-LT.min.js
+  weather-dashboard/vendors/summernote/d    4.01 KiB         1.88 KiB
+  ist/lang/summernote-sk-SK.min.js
+  weather-dashboard/vendors/summernote/d    3.99 KiB         1.82 KiB
+  ist/lang/summernote-lt-LV.min.js
+  weather-dashboard/vendors/summernote/d    3.99 KiB         1.79 KiB
+  ist/lang/summernote-he-IL.min.js
+  weather-dashboard/vendors/summernote/d    3.98 KiB         1.75 KiB
+  ist/lang/summernote-it-IT.min.js
+  weather-dashboard/vendors/summernote/d    3.96 KiB         1.80 KiB
+  ist/lang/summernote-hu-HU.min.js
+  weather-dashboard/vendors/summernote/d    3.95 KiB         1.75 KiB
+  ist/lang/summernote-ca-ES.min.js
+  weather-dashboard/vendors/summernote/d    3.92 KiB         1.80 KiB
+  ist/lang/summernote-cs-CZ.min.js
+  weather-dashboard/vendors/summernote/d    3.91 KiB         1.74 KiB
+  ist/lang/summernote-gl-ES.min.js
+  weather-dashboard/vendors/tinymce/plug    3.89 KiB         1.82 KiB
+  ins/importcss/plugin.min.js
+  weather-dashboard/vendors/summernote/d    3.89 KiB         1.76 KiB
+  ist/lang/summernote-pt-BR.min.js
+  weather-dashboard/vendors/summernote/d    3.86 KiB         1.72 KiB
+  ist/lang/summernote-nl-NL.min.js
+  weather-dashboard/vendors/summernote/d    3.83 KiB         1.77 KiB
+  ist/lang/summernote-pl-PL.min.js
+  weather-dashboard/vendors/summernote/d    3.81 KiB         1.65 KiB
+  ist/lang/summernote-id-ID.min.js
+  weather-dashboard/vendors/summernote/d    3.81 KiB         1.74 KiB
+  ist/lang/summernote-sl-SI.min.js
+  weather-dashboard/vendors/summernote/d    3.80 KiB         1.72 KiB
+  ist/lang/summernote-de-CH.min.js
+  weather-dashboard/vendors/summernote/d    3.80 KiB         1.72 KiB
+  ist/lang/summernote-de-DE.min.js
+  weather-dashboard/vendors/summernote/d    3.80 KiB         1.70 KiB
+  ist/lang/summernote-es-EU.min.js
+  weather-dashboard/vendors/summernote/d    3.76 KiB         1.75 KiB
+  ist/lang/summernote-sv-SE.min.js
+  weather-dashboard/vendors/summernote/d    3.75 KiB         1.71 KiB
+  ist/lang/summernote-da-DK.min.js
+  weather-dashboard/vendors/summernote/d    3.73 KiB         1.72 KiB
+  ist/lang/summernote-nb-NO.min.js
+  weather-dashboard/vendors/summernote/d    3.70 KiB         1.75 KiB
+  ist/lang/summernote-sr-RS-Latin.min.js
+  weather-dashboard/vendors/summernote/d    3.70 KiB         1.80 KiB
+  ist/lang/summernote-vi-VN.min.js
+  weather-dashboard/vendors/summernote/d    3.69 KiB         1.73 KiB
+  ist/lang/summernote-hr-HR.min.js
+  weather-dashboard/vendors/summernote/d    3.68 KiB         1.69 KiB
+  ist/lang/summernote-fi-FI.min.js
+  weather-dashboard/vendors/summernote/d    3.61 KiB         1.91 KiB
+  ist/lang/summernote-ja-JP.min.js
+  weather-dashboard/vendors/summernote/d    3.54 KiB         1.82 KiB
+  ist/lang/summernote-zh-TW.min.js
+  weather-dashboard/vendors/tinymce/plug    3.38 KiB         1.53 KiB
+  ins/advlist/plugin.min.js
+  weather-dashboard/vendors/summernote/d    3.38 KiB         1.60 KiB
+  ist/lang/summernote-uz-UZ.min.js
+  weather-dashboard/vendors/summernote/d    3.38 KiB         1.71 KiB
+  ist/lang/summernote-zh-CN.min.js
+  weather-dashboard/vendors/tinymce/plug    3.21 KiB         1.51 KiB
+  ins/toc/plugin.min.js
+  weather-dashboard/vendors/tinymce/plug    3.01 KiB         0.99 KiB
+  ins/bbcode/plugin.min.js
+  weather-dashboard/vendors/tinymce/plug    2.94 KiB         1.26 KiB
+  ins/insertdatetime/plugin.min.js
+  weather-dashboard/vendors/tinymce/plug    2.93 KiB         1.21 KiB
+  ins/legacyoutput/plugin.min.js
+  weather-dashboard/vendors/tinymce/plug    2.89 KiB         1.25 KiB
+  ins/autosave/plugin.min.js
+  weather-dashboard/vendors/tinymce/plug    2.67 KiB         1.30 KiB
+  ins/autolink/plugin.min.js
+  weather-dashboard/vendors/tinymce/plug    2.65 KiB         1.33 KiB
+  ins/anchor/plugin.min.js
+  weather-dashboard/vendors/tinymce/plug    2.24 KiB         1.14 KiB
+  ins/autoresize/plugin.min.js
+  weather-dashboard/vendors/tinymce/plug    2.05 KiB         1.07 KiB
+  ins/preview/plugin.min.js
+  weather-dashboard/vendors/jquery.avgru    1.95 KiB         0.88 KiB
+  nd/jquery.avgrund.min.js
+  weather-dashboard/vendors/tinymce/plug    1.81 KiB         0.93 KiB
+  ins/tabfocus/plugin.min.js
+  weather-dashboard/vendors/tinymce/plug    1.71 KiB         0.87 KiB
+  ins/noneditable/plugin.min.js
+  weather-dashboard/vendors/tinymce/plug    1.68 KiB         0.78 KiB
+  ins/save/plugin.min.js
+  weather-dashboard/vendors/tinymce/plug    1.59 KiB         0.87 KiB
+  ins/pagebreak/plugin.min.js
+  weather-dashboard/vendors/tinymce/plug    1.36 KiB         0.72 KiB
+  ins/nonbreaking/plugin.min.js
+  weather-dashboard/vendors/tinymce/plug    1.35 KiB         0.66 KiB
+  ins/visualblocks/plugin.min.js
+  weather-dashboard/vendors/tinymce/plug    1.11 KiB         0.61 KiB
+  ins/code/plugin.min.js
+  weather-dashboard/vendors/tinymce/plug    0.79 KiB         0.45 KiB
+  ins/print/plugin.min.js
+  weather-dashboard/vendors/tinymce/plug    0.72 KiB         0.41 KiB
+  ins/hr/plugin.min.js
+  weather-dashboard/vendors/tinymce/plug    0.39 KiB         0.28 KiB
+  ins/colorpicker/plugin.min.js
+  weather-dashboard/vendors/tinymce/plug    0.39 KiB         0.28 KiB
+  ins/contextmenu/plugin.min.js
+  weather-dashboard/vendors/tinymce/plug    0.39 KiB         0.28 KiB
+  ins/textcolor/plugin.min.js
+  weather-dashboard/vendors/ace-builds/s    1586.10 KiB      257.34 KiB
+  rc-min/worker-xquery.js
+  weather-dashboard/vendors/tinymce/them    1073.19 KiB      207.54 KiB
+  es/silver/theme.js
+  weather-dashboard/vendors/tinymce/tiny    1055.97 KiB      212.04 KiB
+  mce.js
+  weather-dashboard/vendors/ace-builds/s    494.63 KiB       173.76 KiB
+  rc-min/worker-javascript.js
+  weather-dashboard/vendors/tinymce/plug    471.23 KiB       38.48 KiB
+  ins/emoticons/js/emojiimages.js
+  weather-dashboard/vendors/ace-builds/s    467.60 KiB       115.91 KiB
+  rc-min/mode-php_laravel_blade.js
+  weather-dashboard/vendors/ace-builds/s    463.24 KiB       114.82 KiB
+  rc-min/mode-php.js
+  weather-dashboard/vendors/tinymce/them    427.62 KiB       83.77 KiB
+  es/mobile/theme.js
+  weather-dashboard/js/chunk-vendors.909    422.27 KiB       114.15 KiB
+  2749e.js
+  weather-dashboard/vendors/tinymce/plug    392.09 KiB       72.99 KiB
+  ins/table/plugin.js
+  weather-dashboard/vendors/codemirror/c    390.78 KiB       103.84 KiB
+  odemirror.js
+  weather-dashboard/vendors/ace-builds/s    362.82 KiB       98.63 KiB
+  rc-min/ace.js
+  weather-dashboard/vendors/summernote/d    337.47 KiB       65.98 KiB
+  ist/summernote-lite.js
+  weather-dashboard/vendors/dropzone/dro    333.18 KiB       74.50 KiB
+  pzone.js
+  weather-dashboard/vendors/summernote/d    317.08 KiB       62.57 KiB
+  ist/summernote-bs4.js
+  weather-dashboard/vendors/summernote/d    317.04 KiB       62.58 KiB
+  ist/summernote-bs5.js
+  weather-dashboard/vendors/summernote/d    316.73 KiB       62.51 KiB
+  ist/summernote.js
+  weather-dashboard/vendors/ace-builds/s    315.13 KiB       67.10 KiB
+  rc-min/worker-coffee.js
+  weather-dashboard/js/mapael_example_1.    291.44 KiB       34.50 KiB
+  js
+  weather-dashboard/vendors/tinymce/plug    253.22 KiB       30.74 KiB
+  ins/emoticons/js/emojis.js
+  weather-dashboard/vendors/ace-builds/s    228.19 KiB       35.30 KiB
+  rc-min/mode-jsoniq.js
+  weather-dashboard/vendors/ace-builds/s    225.64 KiB       34.93 KiB
+  rc-min/mode-xquery.js
+  weather-dashboard/vendors/ace-builds/s    203.18 KiB       46.32 KiB
+  rc-min/worker-html.js
+  weather-dashboard/vendors/js/vendor.bu    182.81 KiB       57.56 KiB
+  ndle.base.js
+  weather-dashboard/vendors/moment/momen    169.83 KiB       35.67 KiB
+  t.js
+  weather-dashboard/vendors/ace-builds/s    146.78 KiB       38.98 KiB
+  rc-min/worker-css.js
+  weather-dashboard/vendors/lightgallery    124.02 KiB       21.91 KiB
+  /js/lightgallery-all.js
+  weather-dashboard/vendors/ace-builds/s    109.95 KiB       30.66 KiB
+  rc-min/mode-slim.js
+  weather-dashboard/vendors/tempusdominu    107.19 KiB       18.78 KiB
+  s-bootstrap-4/tempusdominus-bootstrap-
+  4.js
+  weather-dashboard/vendors/ace-builds/s    104.36 KiB       31.96 KiB
+  rc-min/keybinding-vim.js
+  weather-dashboard/vendors/tinymce/plug    92.21 KiB        19.15 KiB
+  ins/codesample/plugin.js
+  weather-dashboard/vendors/ace-builds/s    79.42 KiB        23.15 KiB
+  rc-min/mode-html_ruby.js
+  weather-dashboard/vendors/ace-builds/s    79.09 KiB        23.57 KiB
+  rc-min/mode-ejs.js
+  weather-dashboard/vendors/ace-builds/s    76.18 KiB        20.83 KiB
+  rc-min/mode-html_elixir.js
+  weather-dashboard/vendors/tinymce/plug    73.18 KiB        15.17 KiB
+  ins/lists/plugin.js
+  weather-dashboard/vendors/ace-builds/s    71.44 KiB        20.45 KiB
+  rc-min/mode-csound_document.js
+  weather-dashboard/vendors/ace-builds/s    70.87 KiB        20.85 KiB
+  rc-min/mode-markdown.js
+  weather-dashboard/vendors/ace-builds/s    69.47 KiB        19.19 KiB
+  rc-min/worker-php.js
+  weather-dashboard/vendors/ace-builds/s    67.92 KiB        20.27 KiB
+  rc-min/mode-luapage.js
+  weather-dashboard/vendors/ace-builds/s    67.69 KiB        19.30 KiB
+  rc-min/mode-soy_template.js
+  weather-dashboard/vendors/ace-builds/s    66.33 KiB        19.73 KiB
+  rc-min/mode-razor.js
+  weather-dashboard/vendors/ace-builds/s    64.32 KiB        18.98 KiB
+  rc-min/mode-rhtml.js
+  weather-dashboard/vendors/ace-builds/s    64.06 KiB        18.84 KiB
+  rc-min/mode-velocity.js
+  weather-dashboard/vendors/ace-builds/s    63.89 KiB        18.83 KiB
+  rc-min/mode-liquid.js
+  weather-dashboard/vendors/tinymce/icon    63.59 KiB        15.85 KiB
+  s/default/icons.js
+  weather-dashboard/vendors/ace-builds/s    63.03 KiB        18.66 KiB
+  rc-min/mode-latte.js
+  weather-dashboard/vendors/ace-builds/s    62.93 KiB        18.77 KiB
+  rc-min/mode-twig.js
+  weather-dashboard/vendors/ace-builds/s    62.77 KiB        18.70 KiB
+  rc-min/mode-smarty.js
+  weather-dashboard/vendors/ace-builds/s    62.75 KiB        18.51 KiB
+  rc-min/mode-nunjucks.js
+  weather-dashboard/vendors/ace-builds/s    62.49 KiB        16.38 KiB
+  rc-min/mode-autohotkey.js
+  weather-dashboard/vendors/ace-builds/s    61.99 KiB        18.75 KiB
+  rc-min/mode-visualforce.js
+  weather-dashboard/vendors/ace-builds/s    61.86 KiB        18.40 KiB
+  rc-min/mode-coldfusion.js
+  weather-dashboard/vendors/ace-builds/s    61.22 KiB        18.14 KiB
+  rc-min/mode-handlebars.js
+  weather-dashboard/vendors/ace-builds/s    60.72 KiB        18.08 KiB
+  rc-min/mode-django.js
+  weather-dashboard/vendors/ace-builds/s    60.38 KiB        17.96 KiB
+  rc-min/mode-curly.js
+  weather-dashboard/vendors/tinymce/plug    60.04 KiB        13.52 KiB
+  ins/paste/plugin.js
+  weather-dashboard/vendors/ace-builds/s    59.39 KiB        17.82 KiB
+  rc-min/mode-html.js
+  weather-dashboard/vendors/ace-builds/s    58.06 KiB        17.68 KiB
+  rc-min/mode-pgsql.js
+  weather-dashboard/vendors/ace-builds/s    53.83 KiB        18.04 KiB
+  rc-min/mode-objectivec.js
+  weather-dashboard/vendors/tinymce/plug    52.00 KiB        10.72 KiB
+  ins/image/plugin.js
+  weather-dashboard/vendors/tinymce/plug    49.66 KiB        10.82 KiB
+  ins/imagetools/plugin.js
+  weather-dashboard/vendors/ace-builds/s    49.25 KiB        16.53 KiB
+  rc-min/ext-prompt.js
+  weather-dashboard/vendors/ace-builds/s    46.58 KiB        13.44 KiB
+  rc-min/mode-jade.js
+  weather-dashboard/vendors/ace-builds/s    46.37 KiB        14.06 KiB
+  rc-min/worker-lua.js
+  weather-dashboard/vendors/ace-builds/s    45.22 KiB        13.64 KiB
+  rc-min/mode-haml.js
+  weather-dashboard/vendors/ace-builds/s    45.04 KiB        13.90 KiB
+  rc-min/worker-xml.js
+  weather-dashboard/vendors/lightgallery    44.78 KiB        9.63 KiB
+  /js/lightgallery.js
+  weather-dashboard/vendors/tinymce/plug    42.96 KiB        8.79 KiB
+  ins/textpattern/plugin.js
+  weather-dashboard/vendors/tinymce/plug    42.89 KiB        9.35 KiB
+  ins/media/plugin.js
+  weather-dashboard/vendors/ace-builds/s    41.58 KiB        13.21 KiB
+  rc-min/mode-mask.js
+  weather-dashboard/vendors/ace-builds/s    40.77 KiB        11.46 KiB
+  rc-min/mode-csound_orchestra.js
+  weather-dashboard/vendors/tinymce/plug    40.71 KiB        9.02 KiB
+  ins/fullscreen/plugin.js
+  weather-dashboard/vendors/tinymce/plug    40.41 KiB        8.93 KiB
+  ins/link/plugin.js
+  weather-dashboard/vendors/ace-builds/s    38.68 KiB        12.08 KiB
+  rc-min/ext-language_tools.js
+  weather-dashboard/vendors/ace-builds/s    38.52 KiB        5.59 KiB
+  rc-min/snippets/gobstones.js
+  weather-dashboard/vendors/codemirror/j    37.93 KiB        8.42 KiB
+  avascript.js
+  weather-dashboard/vendors/tinymce/plug    36.82 KiB        8.58 KiB
+  ins/searchreplace/plugin.js
+  weather-dashboard/vendors/ace-builds/s    36.62 KiB        11.58 KiB
+  rc-min/mode-jsp.js
+  weather-dashboard/vendors/tinymce/plug    36.05 KiB        6.27 KiB
+  ins/charmap/plugin.js
+  weather-dashboard/vendors/ace-builds/s    34.91 KiB        6.97 KiB
+  rc-min/snippets/lsl.js
+  weather-dashboard/js/dashboard.js         32.49 KiB        3.39 KiB
+  weather-dashboard/vendors/ace-builds/s    32.25 KiB        8.61 KiB
+  rc-min/mode-powershell.js
+  weather-dashboard/vendors/ace-builds/s    32.18 KiB        10.29 KiB
+  rc-min/mode-ftl.js
+  weather-dashboard/vendors/ace-builds/s    31.72 KiB        9.17 KiB
+  rc-min/mode-svg.js
+  weather-dashboard/js/app.039000af.js      30.80 KiB        9.48 KiB
+  weather-dashboard/vendors/ace-builds/s    29.38 KiB        4.73 KiB
+  rc-min/mode-erlang.js
+  weather-dashboard/vendors/ace-builds/s    27.52 KiB        8.66 KiB
+  rc-min/mode-gobstones.js
+  weather-dashboard/vendors/ace-builds/s    27.15 KiB        19.00 KiB
+  rc-min/theme-ambiance.js
+  weather-dashboard/vendors/ace-builds/s    26.35 KiB        8.83 KiB
+  rc-min/mode-lsl.js
+  weather-dashboard/vendors/tinymce/plug    26.23 KiB        5.67 KiB
+  ins/spellchecker/plugin.js
+  weather-dashboard/vendors/ace-builds/s    24.67 KiB        10.43 KiB
+  rc-min/mode-mel.js
+  weather-dashboard/vendors/ace-builds/s    24.18 KiB        8.03 KiB
+  rc-min/ext-emmet.js
+  weather-dashboard/vendors/tinymce/plug    24.07 KiB        5.99 KiB
+  ins/help/plugin.js
+  weather-dashboard/vendors/ace-builds/s    23.55 KiB        6.71 KiB
+  rc-min/keybinding-emacs.js
+  weather-dashboard/vendors/ace-builds/s    23.44 KiB        7.79 KiB
+  rc-min/mode-scss.js
+  weather-dashboard/vendors/ace-builds/s    23.28 KiB        7.72 KiB
+  rc-min/mode-java.js
+  weather-dashboard/vendors/ace-builds/s    23.05 KiB        6.98 KiB
+  rc-min/worker-json.js
+  weather-dashboard/vendors/ace-builds/s    22.57 KiB        7.71 KiB
+  rc-min/mode-scala.js
+  weather-dashboard/vendors/ace-builds/s    22.40 KiB        7.55 KiB
+  rc-min/mode-groovy.js
+  weather-dashboard/vendors/ace-builds/s    22.29 KiB        7.28 KiB
+  rc-min/mode-less.js
+  weather-dashboard/js/db.js                21.30 KiB        4.63 KiB
+  weather-dashboard/vendors/ace-builds/s    21.26 KiB        6.90 KiB
+  rc-min/mode-sjs.js
+  weather-dashboard/vendors/ace-builds/s    21.10 KiB        5.84 KiB
+  rc-min/snippets/ruby.js
+  weather-dashboard/vendors/tinymce/plug    20.89 KiB        6.47 KiB
+  ins/wordcount/plugin.js
+  weather-dashboard/vendors/ace-builds/s    20.74 KiB        6.12 KiB
+  rc-min/worker-base.js
+  weather-dashboard/vendors/ace-builds/s    20.44 KiB        7.94 KiB
+  rc-min/mode-actionscript.js
+  weather-dashboard/vendors/ace-builds/s    20.40 KiB        8.81 KiB
+  rc-min/mode-matlab.js
+  weather-dashboard/vendors/ace-builds/s    20.35 KiB        6.85 KiB
+  rc-min/mode-wollok.js
+  weather-dashboard/vendors/ace-builds/s    20.34 KiB        6.90 KiB
+  rc-min/mode-css.js
+  weather-dashboard/vendors/ace-builds/s    20.16 KiB        6.71 KiB
+  rc-min/mode-tsx.js
+  weather-dashboard/vendors/ace-builds/s    19.87 KiB        6.66 KiB
+  rc-min/mode-typescript.js
+  weather-dashboard/vendors/ace-builds/s    19.54 KiB        6.26 KiB
+  rc-min/mode-ruby.js
+  weather-dashboard/vendors/ace-builds/s    19.51 KiB        4.00 KiB
+  rc-min/snippets/css.js
+  weather-dashboard/vendors/ace-builds/s    19.39 KiB        4.43 KiB
+  rc-min/snippets/liquid.js
+  weather-dashboard/vendors/tinymce/plug    19.29 KiB        4.77 KiB
+  ins/template/plugin.js
+  weather-dashboard/vendors/ace-builds/s    19.03 KiB        4.32 KiB
+  rc-min/snippets/html.js
+  weather-dashboard/vendors/ace-builds/s    18.14 KiB        6.29 KiB
+  rc-min/mode-javascript.js
+  weather-dashboard/vendors/tinymce/plug    17.71 KiB        4.50 KiB
+  ins/emoticons/plugin.js
+  weather-dashboard/vendors/ace-builds/s    17.56 KiB        7.13 KiB
+  rc-min/mode-raku.js
+  weather-dashboard/vendors/tinymce/plug    17.37 KiB        3.93 KiB
+  ins/fullpage/plugin.js
+  weather-dashboard/vendors/ace-builds/s    16.54 KiB        4.37 KiB
+  rc-min/mode-vala.js
+  weather-dashboard/vendors/ace-builds/s    16.39 KiB        6.45 KiB
+  rc-min/mode-sqlserver.js
+  weather-dashboard/vendors/ace-builds/s    16.03 KiB        6.03 KiB
+  rc-min/mode-qml.js
+  weather-dashboard/vendors/ace-builds/s    15.83 KiB        4.73 KiB
+  rc-min/mode-nginx.js
+  weather-dashboard/vendors/ace-builds/s    15.69 KiB        3.26 KiB
+  rc-min/mode-elixir.js
+  weather-dashboard/vendors/ace-builds/s    15.60 KiB        5.42 KiB
+  rc-min/mode-sass.js
+  weather-dashboard/vendors/ace-builds/s    15.54 KiB        5.54 KiB
+  rc-min/mode-ocaml.js
+  weather-dashboard/js/google-maps.js       15.26 KiB        1.62 KiB
+  weather-dashboard/vendors/ace-builds/s    15.21 KiB        6.15 KiB
+  rc-min/ext-settings_menu.js
+  weather-dashboard/vendors/ace-builds/s    14.67 KiB        6.01 KiB
+  rc-min/ext-options.js
+  weather-dashboard/vendors/tinymce/plug    14.64 KiB        3.63 KiB
+  ins/visualchars/plugin.js
+  weather-dashboard/vendors/ace-builds/s    14.58 KiB        4.74 KiB
+  rc-min/mode-dart.js
+  weather-dashboard/vendors/ace-builds/s    14.39 KiB        5.02 KiB
+  rc-min/mode-stylus.js
+  weather-dashboard/vendors/tinymce/plug    14.30 KiB        3.73 KiB
+  ins/quickbars/plugin.js
+  weather-dashboard/vendors/ace-builds/s    13.91 KiB        4.40 KiB
+  rc-min/mode-apache_conf.js
+  weather-dashboard/vendors/ace-builds/s    13.43 KiB        4.40 KiB
+  rc-min/mode-nix.js
+  weather-dashboard/vendors/ace-builds/s    13.32 KiB        4.59 KiB
+  rc-min/mode-glsl.js
+  weather-dashboard/vendors/tinymce/plug    13.13 KiB        3.25 KiB
+  ins/directionality/plugin.js
+  weather-dashboard/vendors/ace-builds/s    12.87 KiB        4.29 KiB
+  rc-min/mode-protobuf.js
+  weather-dashboard/vendors/ace-builds/s    12.62 KiB        4.67 KiB
+  rc-min/mode-red.js
+  weather-dashboard/vendors/ace-builds/s    12.04 KiB        2.86 KiB
+  rc-min/mode-kotlin.js
+  weather-dashboard/vendors/ace-builds/s    11.88 KiB        3.32 KiB
+  rc-min/mode-xml.js
+  weather-dashboard/vendors/ace-builds/s    11.71 KiB        4.13 KiB
+  rc-min/mode-vbscript.js
+  weather-dashboard/vendors/ace-builds/s    11.63 KiB        3.49 KiB
+  rc-min/ext-searchbox.js
+  weather-dashboard/vendors/ace-builds/s    11.57 KiB        3.76 KiB
+  rc-min/mode-haskell.js
+  weather-dashboard/vendors/tinymce/plug    11.37 KiB        2.85 KiB
+  ins/importcss/plugin.js
+  weather-dashboard/vendors/ace-builds/s    11.30 KiB        3.15 KiB
+  rc-min/mode-drools.js
+  weather-dashboard/vendors/ace-builds/s    11.22 KiB        4.01 KiB
+  rc-min/mode-c_cpp.js
+  weather-dashboard/vendors/ace-builds/s    10.66 KiB        3.24 KiB
+  rc-min/mode-logtalk.js
+  weather-dashboard/vendors/ace-builds/s    10.47 KiB        3.84 KiB
+  rc-min/mode-praat.js
+  weather-dashboard/vendors/ace-builds/s    10.46 KiB        3.97 KiB
+  rc-min/mode-nsis.js
+  weather-dashboard/vendors/summernote/d    10.21 KiB        2.78 KiB
+  ist/plugin/specialchars/summernote-ext
+  -specialchars.js
+  weather-dashboard/vendors/ace-builds/s    10.08 KiB        3.04 KiB
+  rc-min/mode-crystal.js
+  weather-dashboard/js/flot-chart.js        9.98 KiB         2.52 KiB
+  weather-dashboard/vendors/ace-builds/s    9.46 KiB         2.34 KiB
+  rc-min/mode-mediawiki.js
+  weather-dashboard/vendors/summernote/d    9.46 KiB         2.58 KiB
+  ist/lang/summernote-bn-BD.js
+  weather-dashboard/vendors/colcade/colc    9.29 KiB         2.85 KiB
+  ade.js
+  weather-dashboard/vendors/ace-builds/s    9.19 KiB         2.57 KiB
+  rc-min/mode-zeek.js
+  weather-dashboard/vendors/ace-builds/s    9.05 KiB         3.22 KiB
+  rc-min/mode-d.js
+  weather-dashboard/vendors/ace-builds/s    9.01 KiB         3.40 KiB
+  rc-min/mode-assembly_x86.js
+  weather-dashboard/vendors/summernote/d    8.97 KiB         2.88 KiB
+  ist/lang/summernote-en-US.js
+  weather-dashboard/vendors/ace-builds/s    8.96 KiB         2.79 KiB
+  rc-min/mode-csharp.js
+  weather-dashboard/vendors/ace-builds/s    8.80 KiB         2.50 KiB
+  rc-min/mode-smithy.js
+  weather-dashboard/vendors/ace-builds/s    8.74 KiB         3.36 KiB
+  rc-min/mode-asl.js
+  weather-dashboard/vendors/ace-builds/s    8.55 KiB         3.59 KiB
+  rc-min/mode-fortran.js
+  weather-dashboard/vendors/ace-builds/s    8.50 KiB         3.26 KiB
+  rc-min/mode-apex.js
+  weather-dashboard/vendors/ace-builds/s    8.49 KiB         2.50 KiB
+  rc-min/mode-prolog.js
+  weather-dashboard/vendors/ace-builds/s    8.39 KiB         2.99 KiB
+  rc-min/mode-dockerfile.js
+  weather-dashboard/vendors/ace-builds/s    8.37 KiB         2.19 KiB
+  rc-min/mode-prisma.js
+  weather-dashboard/vendors/ace-builds/s    8.28 KiB         2.57 KiB
+  rc-min/mode-asciidoc.js
+  weather-dashboard/vendors/ace-builds/s    8.19 KiB         3.34 KiB
+  rc-min/mode-clojure.js
+  weather-dashboard/vendors/ace-builds/s    8.12 KiB         2.77 KiB
+  rc-min/mode-redshift.js
+  weather-dashboard/vendors/tinymce/plug    8.05 KiB         2.25 KiB
+  ins/advlist/plugin.js
+  weather-dashboard/vendors/summernote/d    8.04 KiB         2.37 KiB
+  ist/plugin/databasic/summernote-ext-da
+  tabasic.js
+  weather-dashboard/vendors/summernote/d    8.02 KiB         2.68 KiB
+  ist/lang/summernote-el-GR.js
+  weather-dashboard/vendors/ace-builds/s    7.99 KiB         2.55 KiB
+  rc-min/mode-sparql.js
+  weather-dashboard/vendors/ace-builds/s    7.94 KiB         2.36 KiB
+  rc-min/mode-python.js
+  weather-dashboard/vendors/summernote/d    7.85 KiB         2.45 KiB
+  ist/lang/summernote-th-TH.js
+  weather-dashboard/js/chart.js             7.82 KiB         1.55 KiB
+  weather-dashboard/vendors/ace-builds/s    7.77 KiB         1.89 KiB
+  rc-min/mode-csound_score.js
+  weather-dashboard/vendors/summernote/d    7.74 KiB         2.55 KiB
+  ist/lang/summernote-ru-RU.js
+  weather-dashboard/vendors/ace-builds/s    7.72 KiB         2.97 KiB
+  rc-min/mode-lua.js
+  weather-dashboard/vendors/ace-builds/s    7.70 KiB         2.75 KiB
+  rc-min/mode-dot.js
+  weather-dashboard/vendors/ace-builds/s    7.69 KiB         1.89 KiB
+  rc-min/keybinding-sublime.js
+  weather-dashboard/vendors/ace-builds/s    7.68 KiB         2.45 KiB
+  rc-min/mode-julia.js
+  weather-dashboard/vendors/ace-builds/s    7.60 KiB         2.77 KiB
+  rc-min/mode-coffee.js
+  weather-dashboard/vendors/ace-builds/s    7.56 KiB         2.92 KiB
+  rc-min/mode-perl.js
+  weather-dashboard/vendors/ace-builds/s    7.38 KiB         2.73 KiB
+  rc-min/mode-sh.js
+  weather-dashboard/vendors/tinymce/plug    7.36 KiB         2.00 KiB
+  ins/toc/plugin.js
+  weather-dashboard/vendors/ace-builds/s    7.27 KiB         2.70 KiB
+  rc-min/mode-scrypt.js
+  weather-dashboard/vendors/summernote/d    7.25 KiB         2.26 KiB
+  ist/lang/summernote-ta-IN.js
+  weather-dashboard/vendors/ace-builds/s    7.25 KiB         2.61 KiB
+  rc-min/mode-puppet.js
+  weather-dashboard/vendors/ace-builds/s    7.21 KiB         2.65 KiB
+  rc-min/mode-swift.js
+  weather-dashboard/vendors/ace-builds/s    7.14 KiB         2.46 KiB
+  rc-min/mode-forth.js
+  weather-dashboard/vendors/ace-builds/s    7.11 KiB         2.07 KiB
+  rc-min/snippets/php.js
+  weather-dashboard/vendors/ace-builds/s    7.10 KiB         2.55 KiB
+  rc-min/mode-jsx.js
+  weather-dashboard/vendors/ace-builds/s    7.06 KiB         2.53 KiB
+  rc-min/mode-golang.js
+  weather-dashboard/vendors/summernote/d    7.04 KiB         2.47 KiB
+  ist/lang/summernote-bg-BG.js
+  weather-dashboard/vendors/ace-builds/s    7.01 KiB         2.39 KiB
+  rc-min/mode-terraform.js
+  weather-dashboard/vendors/tinymce/plug    6.94 KiB         1.93 KiB
+  ins/autolink/plugin.js
+  weather-dashboard/vendors/ace-builds/s    6.87 KiB         3.04 KiB
+  rc-min/mode-mushcode.js
+  weather-dashboard/js/no-ui-slider.js      6.83 KiB         0.98 KiB
+  weather-dashboard/vendors/summernote/d    6.80 KiB         2.44 KiB
+  ist/lang/summernote-uk-UA.js
+  weather-dashboard/vendors/ace-builds/s    6.77 KiB         2.48 KiB
+  rc-min/mode-nim.js
+  weather-dashboard/vendors/ace-builds/s    6.77 KiB         2.65 KiB
+  rc-min/mode-rust.js
+  weather-dashboard/vendors/ace-builds/s    6.75 KiB         2.30 KiB
+  rc-min/mode-makefile.js
+  weather-dashboard/vendors/ace-builds/s    6.69 KiB         2.38 KiB
+  rc-min/mode-haxe.js
+  weather-dashboard/vendors/summernote/d    6.69 KiB         2.27 KiB
+  ist/lang/summernote-ar-AR.js
+  weather-dashboard/vendors/ace-builds/s    6.68 KiB         2.84 KiB
+  rc-min/mode-mysql.js
+  weather-dashboard/vendors/ace-builds/s    6.67 KiB         2.23 KiB
+  rc-min/mode-scad.js
+  weather-dashboard/vendors/ace-builds/s    6.65 KiB         3.85 KiB
+  rc-min/theme-iplastic.js
+  weather-dashboard/js/rickshaw.js          6.62 KiB         1.27 KiB
+  weather-dashboard/vendors/tinymce/plug    6.59 KiB         1.76 KiB
+  ins/autosave/plugin.js
+  weather-dashboard/vendors/summernote/d    6.56 KiB         2.39 KiB
+  ist/lang/summernote-mn-MN.js
+  weather-dashboard/vendors/summernote/d    6.55 KiB         2.36 KiB
+  ist/lang/summernote-fa-IR.js
+  weather-dashboard/vendors/ace-builds/s    6.52 KiB         2.78 KiB
+  rc-min/ext-textarea.js
+  weather-dashboard/vendors/ace-builds/s    6.48 KiB         2.53 KiB
+  rc-min/mode-pig.js
+  weather-dashboard/vendors/tinymce/jque    6.44 KiB         2.83 KiB
+  ry.tinymce.js
+  weather-dashboard/vendors/summernote/d    6.41 KiB         2.31 KiB
+  ist/lang/summernote-az-AZ.js
+  weather-dashboard/vendors/ace-builds/s    6.36 KiB         1.97 KiB
+  rc-min/mode-tcl.js
+  weather-dashboard/vendors/tinymce/plug    6.35 KiB         1.73 KiB
+  ins/insertdatetime/plugin.js
+  weather-dashboard/vendors/summernote/d    6.30 KiB         2.32 KiB
+  ist/lang/summernote-sr-RS.js
+  weather-dashboard/vendors/tinymce/plug    6.24 KiB         1.81 KiB
+  ins/anchor/plugin.js
+  weather-dashboard/vendors/summernote/d    6.20 KiB         2.15 KiB
+  ist/lang/summernote-es-ES.js
+  weather-dashboard/vendors/summernote/d    6.16 KiB         2.18 KiB
+  ist/lang/summernote-fr-FR.js
+  weather-dashboard/vendors/ace-builds/s    6.15 KiB         1.97 KiB
+  rc-min/mode-hjson.js
+  weather-dashboard/js/editorDemo.js        6.13 KiB         2.03 KiB
+  weather-dashboard/vendors/ace-builds/s    6.07 KiB         1.72 KiB
+  rc-min/mode-jssm.js
+  weather-dashboard/vendors/ace-builds/s    6.06 KiB         1.92 KiB
+  rc-min/mode-json5.js
+  weather-dashboard/vendors/tinymce/plug    6.04 KiB         1.55 KiB
+  ins/legacyoutput/plugin.js
+  weather-dashboard/vendors/summernote/d    6.03 KiB         2.18 KiB
+  ist/lang/summernote-tr-TR.js
+  weather-dashboard/vendors/tinymce/plug    6.02 KiB         1.69 KiB
+  ins/autoresize/plugin.js
+  weather-dashboard/vendors/summernote/d    5.99 KiB         2.28 KiB
+  ist/lang/summernote-ko-KR.js
+  weather-dashboard/vendors/ace-builds/s    5.98 KiB         2.61 KiB
+  rc-min/mode-abap.js
+  weather-dashboard/vendors/ace-builds/s    5.94 KiB         2.06 KiB
+  rc-min/mode-jack.js
+  weather-dashboard/vendors/summernote/d    5.93 KiB         2.08 KiB
+  ist/lang/summernote-ro-RO.js
+  weather-dashboard/vendors/summernote/d    5.91 KiB         2.23 KiB
+  ist/lang/summernote-sk-SK.js
+  weather-dashboard/vendors/summernote/d    5.90 KiB         2.22 KiB
+  ist/lang/summernote-lt-LT.js
+  weather-dashboard/vendors/summernote/d    5.90 KiB         2.10 KiB
+  ist/lang/summernote-pt-PT.js
+  weather-dashboard/vendors/ace-builds/s    5.88 KiB         2.05 KiB
+  rc-min/mode-logiql.js
+  weather-dashboard/vendors/summernote/d    5.88 KiB         2.11 KiB
+  ist/lang/summernote-he-IL.js
+  weather-dashboard/vendors/summernote/d    5.87 KiB         2.08 KiB
+  ist/lang/summernote-it-IT.js
+  weather-dashboard/vendors/summernote/d    5.85 KiB         2.09 KiB
+  ist/lang/summernote-ca-ES.js
+  weather-dashboard/vendors/summernote/d    5.85 KiB         2.15 KiB
+  ist/lang/summernote-hu-HU.js
+  weather-dashboard/vendors/summernote/d    5.83 KiB         2.13 KiB
+  ist/lang/summernote-lt-LV.js
+  weather-dashboard/js/Chart.roundedBarC    5.81 KiB         1.60 KiB
+  harts.js
+  weather-dashboard/vendors/summernote/d    5.79 KiB         2.08 KiB
+  ist/lang/summernote-gl-ES.js
+  weather-dashboard/js/progress-bar.js      5.79 KiB         0.63 KiB
+  weather-dashboard/vendors/summernote/d    5.78 KiB         2.10 KiB
+  ist/lang/summernote-pt-BR.js
+  weather-dashboard/vendors/summernote/d    5.76 KiB         2.12 KiB
+  ist/lang/summernote-cs-CZ.js
+  weather-dashboard/vendors/summernote/d    5.74 KiB         2.06 KiB
+  ist/lang/summernote-nl-NL.js
+  weather-dashboard/vendors/summernote/d    5.72 KiB         2.11 KiB
+  ist/lang/summernote-pl-PL.js
+  weather-dashboard/vendors/ace-builds/s    5.70 KiB         2.12 KiB
+  rc-min/snippets/perl.js
+  weather-dashboard/vendors/summernote/d    5.70 KiB         2.07 KiB
+  ist/lang/summernote-sl-SI.js
+  weather-dashboard/vendors/summernote/d    5.70 KiB         1.99 KiB
+  ist/lang/summernote-id-ID.js
+  weather-dashboard/vendors/ace-builds/s    5.68 KiB         1.45 KiB
+  rc-min/keybinding-vscode.js
+  weather-dashboard/vendors/summernote/d    5.68 KiB         2.02 KiB
+  ist/lang/summernote-es-EU.js
+  weather-dashboard/vendors/summernote/d    5.66 KiB         2.08 KiB
+  ist/lang/summernote-sv-SE.js
+  weather-dashboard/vendors/summernote/d    5.66 KiB         2.03 KiB
+  ist/lang/summernote-de-CH.js
+  weather-dashboard/vendors/summernote/d    5.66 KiB         2.03 KiB
+  ist/lang/summernote-de-DE.js
+  weather-dashboard/vendors/summernote/d    5.64 KiB         2.04 KiB
+  ist/lang/summernote-da-DK.js
+  weather-dashboard/vendors/ace-builds/s    5.63 KiB         2.13 KiB
+  rc-min/mode-fsharp.js
+  weather-dashboard/js/c3.js                5.63 KiB         0.97 KiB
+  weather-dashboard/vendors/summernote/d    5.61 KiB         2.05 KiB
+  ist/lang/summernote-nb-NO.js
+  weather-dashboard/vendors/ace-builds/s    5.60 KiB         2.29 KiB
+  rc-min/mode-applescript.js
+  weather-dashboard/vendors/summernote/d    5.60 KiB         2.08 KiB
+  ist/lang/summernote-sr-RS-Latin.js
+  weather-dashboard/vendors/summernote/d    5.59 KiB         2.13 KiB
+  ist/lang/summernote-vi-VN.js
+  weather-dashboard/vendors/summernote/d    5.58 KiB         2.06 KiB
+  ist/lang/summernote-hr-HR.js
+  weather-dashboard/vendors/summernote/d    5.54 KiB         2.05 KiB
+  ist/lang/summernote-fi-FI.js
+  weather-dashboard/vendors/ace-builds/s    5.53 KiB         1.98 KiB
+  rc-min/mode-io.js
+  weather-dashboard/vendors/ace-builds/s    5.49 KiB         2.08 KiB
+  rc-min/mode-mips.js
+  weather-dashboard/vendors/summernote/d    5.49 KiB         2.25 KiB
+  ist/lang/summernote-ja-JP.js
+  weather-dashboard/vendors/summernote/d    5.43 KiB         2.14 KiB
+  ist/lang/summernote-zh-TW.js
+  weather-dashboard/vendors/ace-builds/s    5.43 KiB         1.88 KiB
+  rc-min/mode-json.js
+  weather-dashboard/vendors/ace-builds/s    5.37 KiB         1.70 KiB
+  rc-min/mode-r.js
+  weather-dashboard/vendors/ace-builds/s    5.27 KiB         2.05 KiB
+  rc-min/mode-livescript.js
+  weather-dashboard/vendors/ace-builds/s    5.26 KiB         1.74 KiB
+  rc-min/mode-alda.js
+  weather-dashboard/vendors/codemirror/s    5.25 KiB         1.82 KiB
+  hell.js
+  weather-dashboard/vendors/ace-builds/s    5.23 KiB         1.69 KiB
+  rc-min/mode-latex.js
+  weather-dashboard/vendors/ace-builds/s    5.23 KiB         1.71 KiB
+  rc-min/mode-turtle.js
+  weather-dashboard/js/template.js          5.21 KiB         1.50 KiB
+  weather-dashboard/vendors/summernote/d    5.21 KiB         2.03 KiB
+  ist/lang/summernote-zh-CN.js
+  weather-dashboard/vendors/ace-builds/s    5.13 KiB         1.92 KiB
+  rc-min/mode-elm.js
+  weather-dashboard/vendors/ace-builds/s    5.12 KiB         1.69 KiB
+  rc-min/mode-maze.js
+  weather-dashboard/vendors/ace-builds/s    5.07 KiB         1.89 KiB
+  rc-min/mode-batchfile.js
+  weather-dashboard/js/google-charts.js     4.98 KiB         1.45 KiB
+  weather-dashboard/vendors/ace-builds/s    4.98 KiB         1.69 KiB
+  rc-min/mode-abc.js
+  weather-dashboard/js/context-menu.js      4.96 KiB         0.77 KiB
+  weather-dashboard/vendors/ace-builds/s    4.96 KiB         1.73 KiB
+  rc-min/mode-yaml.js
+  weather-dashboard/js/x-editable.js        4.92 KiB         1.48 KiB
+  weather-dashboard/vendors/ace-builds/s    4.92 KiB         1.78 KiB
+  rc-min/mode-fsl.js
+  weather-dashboard/vendors/ace-builds/s    4.89 KiB         1.36 KiB
+  rc-min/mode-rdoc.js
+  weather-dashboard/js/chartist.js          4.83 KiB         1.40 KiB
+  weather-dashboard/vendors/summernote/d    4.80 KiB         1.90 KiB
+  ist/lang/summernote-uz-UZ.js
+  weather-dashboard/js/js-grid.js           4.78 KiB         0.75 KiB
+  weather-dashboard/js/mapael_example_2.    4.72 KiB         0.96 KiB
+  js
+  weather-dashboard/vendors/ace-builds/s    4.71 KiB         1.82 KiB
+  rc-min/mode-sql.js
+  weather-dashboard/vendors/ace-builds/s    4.69 KiB         2.38 KiB
+  rc-min/ext-modelist.js
+  weather-dashboard/js/maps.js              4.63 KiB         1.51 KiB
+  weather-dashboard/vendors/datatables.n    4.60 KiB         1.85 KiB
+  et-bs4/dataTables.bootstrap4.js
+  weather-dashboard/vendors/ace-builds/s    4.54 KiB         1.59 KiB
+  rc-min/snippets/java.js
+  weather-dashboard/vendors/ace-builds/s    4.54 KiB         1.59 KiB
+  rc-min/snippets/edifact.js
+  weather-dashboard/vendors/ace-builds/s    4.40 KiB         1.59 KiB
+  rc-min/mode-pascal.js
+  weather-dashboard/js/morris.js            4.38 KiB         0.66 KiB
+  weather-dashboard/vendors/tinymce/plug    4.33 KiB         1.39 KiB
+  ins/preview/plugin.js
+  weather-dashboard/vendors/ace-builds/s    4.29 KiB         1.59 KiB
+  rc-min/mode-c9search.js
+  weather-dashboard/vendors/ace-builds/s    4.24 KiB         1.80 KiB
+  rc-min/ext-beautify.js
+  weather-dashboard/vendors/ace-builds/s    4.23 KiB         1.38 KiB
+  rc-min/snippets/django.js
+  weather-dashboard/vendors/tinymce/plug    4.16 KiB         1.22 KiB
+  ins/noneditable/plugin.js
+  weather-dashboard/vendors/ace-builds/s    4.08 KiB         1.52 KiB
+  rc-min/snippets/javascript.js
+  weather-dashboard/vendors/tinymce/plug    4.00 KiB         1.07 KiB
+  ins/bbcode/plugin.js
+  weather-dashboard/vendors/ace-builds/s    3.96 KiB         1.42 KiB
+  rc-min/mode-snippets.js
+  weather-dashboard/vendors/ace-builds/s    3.95 KiB         1.75 KiB
+  rc-min/ext-code_lens.js
+  weather-dashboard/vendors/ace-builds/s    3.94 KiB         1.49 KiB
+  rc-min/ext-elastic_tabstops_lite.js
+  weather-dashboard/vendors/ace-builds/s    3.92 KiB         1.67 KiB
+  rc-min/ext-static_highlight.js
+  weather-dashboard/vendors/ace-builds/s    3.91 KiB         1.35 KiB
+  rc-min/snippets/python.js
+  weather-dashboard/vendors/ace-builds/s    3.88 KiB         1.52 KiB
+  rc-min/mode-scheme.js
+  weather-dashboard/vendors/ace-builds/s    3.88 KiB         1.56 KiB
+  rc-min/ext-keybinding_menu.js
+  weather-dashboard/vendors/ace-builds/s    3.87 KiB         1.30 KiB
+  rc-min/snippets/tex.js
+  weather-dashboard/vendors/tinymce/plug    3.85 KiB         1.24 KiB
+  ins/tabfocus/plugin.js
+  weather-dashboard/vendors/ace-builds/s    3.81 KiB         1.29 KiB
+  rc-min/snippets/erlang.js
+  weather-dashboard/vendors/ace-builds/s    3.78 KiB         1.23 KiB
+  rc-min/ext-split.js
+  weather-dashboard/vendors/ace-builds/s    3.75 KiB         1.05 KiB
+  rc-min/theme-tomorrow_night_bright.js
+  weather-dashboard/vendors/ace-builds/s    3.73 KiB         1.38 KiB
+  rc-min/mode-graphqlschema.js
+  weather-dashboard/js/codeEditor.js        3.58 KiB         0.70 KiB
+  weather-dashboard/js/form-addons.js       3.53 KiB         0.87 KiB
+  weather-dashboard/vendors/ace-builds/s    3.48 KiB         0.95 KiB
+  rc-min/theme-tomorrow_night_eighties.j
+  s
+  weather-dashboard/vendors/ace-builds/s    3.39 KiB         1.04 KiB
+  rc-min/theme-dreamweaver.js
+  weather-dashboard/vendors/ace-builds/s    3.38 KiB         1.03 KiB
+  rc-min/theme-katzenmilch.js
+  weather-dashboard/vendors/ace-builds/s    3.37 KiB         1.04 KiB
+  rc-min/snippets/vala.js
+  weather-dashboard/vendors/tinymce/plug    3.36 KiB         1.00 KiB
+  ins/save/plugin.js
+  weather-dashboard/vendors/ace-builds/s    3.35 KiB         1.51 KiB
+  rc-min/mode-aql.js
+  weather-dashboard/vendors/tinymce/plug    3.34 KiB         1.12 KiB
+  ins/pagebreak/plugin.js
+  weather-dashboard/js/just-gage.js         3.33 KiB         0.74 KiB
+  weather-dashboard/vendors/ace-builds/s    3.30 KiB         1.07 KiB
+  rc-min/mode-rst.js
+  weather-dashboard/vendors/ace-builds/s    3.29 KiB         0.95 KiB
+  rc-min/theme-tomorrow_night_blue.js
+  weather-dashboard/vendors/ace-builds/s    3.25 KiB         1.02 KiB
+  rc-min/mode-cirru.js
+  weather-dashboard/vendors/ace-builds/s    3.23 KiB         1.26 KiB
+  rc-min/snippets/actionscript.js
+  weather-dashboard/js/ion-range-slider.    3.19 KiB         0.54 KiB
+  js
+  weather-dashboard/vendors/ace-builds/s    3.17 KiB         1.41 KiB
+  rc-min/ext-whitespace.js
+  weather-dashboard/vendors/ace-builds/s    3.17 KiB         0.97 KiB
+  rc-min/theme-terminal.js
+  weather-dashboard/vendors/ace-builds/s    3.15 KiB         1.06 KiB
+  rc-min/theme-sqlserver.js
+  weather-dashboard/vendors/ace-builds/s    3.15 KiB         1.32 KiB
+  rc-min/mode-verilog.js
+  weather-dashboard/js/jq.tablesort.js      3.13 KiB         1.04 KiB
+  weather-dashboard/vendors/ace-builds/s    3.11 KiB         1.01 KiB
+  rc-min/theme-chaos.js
+  weather-dashboard/vendors/ace-builds/s    3.09 KiB         1.18 KiB
+  rc-min/mode-eiffel.js
+  weather-dashboard/vendors/ace-builds/s    3.09 KiB         1.08 KiB
+  rc-min/mode-mixal.js
+  weather-dashboard/vendors/ace-builds/s    3.08 KiB         0.96 KiB
+  rc-min/theme-tomorrow_night.js
+  weather-dashboard/vendors/ace-builds/s    3.08 KiB         0.98 KiB
+  rc-min/theme-crimson_editor.js
+  weather-dashboard/vendors/ace-builds/s    3.07 KiB         1.31 KiB
+  rc-min/mode-edifact.js
+  weather-dashboard/js/form-validation.j    3.07 KiB         0.91 KiB
+  s
+  weather-dashboard/vendors/tinymce/plug    3.06 KiB         0.89 KiB
+  ins/visualblocks/plugin.js
+  weather-dashboard/vendors/ace-builds/s    3.06 KiB         0.96 KiB
+  rc-min/theme-mono_industrial.js
+  weather-dashboard/js/jquery.cookie.js     3.05 KiB         1.33 KiB
+  weather-dashboard/vendors/ace-builds/s    3.04 KiB         0.98 KiB
+  rc-min/mode-tex.js
+  weather-dashboard/vendors/ace-builds/s    3.03 KiB         0.93 KiB
+  rc-min/snippets/jsp.js
+  weather-dashboard/vendors/ace-builds/s    2.97 KiB         1.03 KiB
+  rc-min/theme-chrome.js
+  weather-dashboard/vendors/ace-builds/s    2.95 KiB         1.08 KiB
+  rc-min/mode-ini.js
+  weather-dashboard/vendors/ace-builds/s    2.93 KiB         0.96 KiB
+  rc-min/theme-one_dark.js
+  weather-dashboard/vendors/ace-builds/s    2.92 KiB         0.99 KiB
+  rc-min/snippets/c_cpp.js
+  weather-dashboard/vendors/tinymce/plug    2.91 KiB         1.01 KiB
+  ins/nonbreaking/plugin.js
+  weather-dashboard/vendors/ace-builds/s    2.90 KiB         0.97 KiB
+  rc-min/theme-pastel_on_dark.js
+  weather-dashboard/vendors/ace-builds/s    2.89 KiB         0.85 KiB
+  rc-min/snippets/r.js
+  weather-dashboard/js/settings.js          2.88 KiB         0.47 KiB
+  weather-dashboard/vendors/ace-builds/s    2.88 KiB         1.03 KiB
+  rc-min/theme-textmate.js
+  weather-dashboard/vendors/ace-builds/s    2.85 KiB         0.95 KiB
+  rc-min/theme-dracula.js
+  weather-dashboard/vendors/ace-builds/s    2.82 KiB         0.93 KiB
+  rc-min/theme-tomorrow.js
+  weather-dashboard/vendors/ace-builds/s    2.74 KiB         0.96 KiB
+  rc-min/theme-twilight.js
+  weather-dashboard/vendors/ace-builds/s    2.72 KiB         0.90 KiB
+  rc-min/theme-merbivore_soft.js
+  weather-dashboard/vendors/ace-builds/s    2.71 KiB         0.89 KiB
+  rc-min/mode-lucene.js
+  weather-dashboard/vendors/ace-builds/s    2.71 KiB         0.89 KiB
+  rc-min/theme-clouds_midnight.js
+  weather-dashboard/vendors/ace-builds/s    2.68 KiB         0.97 KiB
+  rc-min/mode-diff.js
+  weather-dashboard/vendors/ace-builds/s    2.64 KiB         0.98 KiB
+  rc-min/theme-gob.js
+  weather-dashboard/vendors/ace-builds/s    2.64 KiB         0.92 KiB
+  rc-min/theme-monokai.js
+  weather-dashboard/vendors/ace-builds/s    2.64 KiB         0.89 KiB
+  rc-min/theme-solarized_light.js
+  weather-dashboard/vendors/ace-builds/s    2.63 KiB         0.98 KiB
+  rc-min/mode-gherkin.js
+  weather-dashboard/vendors/ace-builds/s    2.62 KiB         0.94 KiB
+  rc-min/theme-cobalt.js
+  weather-dashboard/vendors/ace-builds/s    2.59 KiB         0.89 KiB
+  rc-min/theme-solarized_dark.js
+  weather-dashboard/vendors/ace-builds/s    2.57 KiB         1.29 KiB
+  rc-min/mode-cobol.js
+  weather-dashboard/vendors/ace-builds/s    2.57 KiB         0.93 KiB
+  rc-min/theme-kr_theme.js
+  weather-dashboard/vendors/ace-builds/s    2.56 KiB         1.17 KiB
+  rc-min/mode-ada.js
+  weather-dashboard/vendors/ace-builds/s    2.55 KiB         0.92 KiB
+  rc-min/mode-haskell_cabal.js
+  weather-dashboard/vendors/summernote/d    2.54 KiB         0.98 KiB
+  ist/plugin/hello/summernote-ext-hello.
+  js
+  weather-dashboard/vendors/ace-builds/s    2.53 KiB         0.95 KiB
+  rc-min/ext-rtl.js
+  weather-dashboard/vendors/ace-builds/s    2.52 KiB         0.89 KiB
+  rc-min/theme-idle_fingers.js
+  weather-dashboard/vendors/ace-builds/s    2.51 KiB         0.88 KiB
+  rc-min/theme-merbivore.js
+  weather-dashboard/vendors/ace-builds/s    2.51 KiB         0.92 KiB
+  rc-min/theme-dawn.js
+  weather-dashboard/vendors/ace-builds/s    2.50 KiB         0.79 KiB
+  rc-min/snippets/coffee.js
+  weather-dashboard/vendors/ace-builds/s    2.49 KiB         0.85 KiB
+  rc-min/mode-space.js
+  weather-dashboard/vendors/ace-builds/s    2.48 KiB         0.86 KiB
+  rc-min/theme-vibrant_ink.js
+  weather-dashboard/vendors/ace-builds/s    2.46 KiB         0.96 KiB
+  rc-min/mode-toml.js
+  weather-dashboard/vendors/ace-builds/s    2.45 KiB         0.89 KiB
+  rc-min/theme-github.js
+  weather-dashboard/js/toastDemo.js         2.42 KiB         0.56 KiB
+  weather-dashboard/vendors/ace-builds/s    2.41 KiB         0.97 KiB
+  rc-min/snippets/sqlserver.js
+  weather-dashboard/js/alerts.js            2.40 KiB         0.71 KiB
+  weather-dashboard/vendors/ace-builds/s    2.40 KiB         0.87 KiB
+  rc-min/theme-eclipse.js
+  weather-dashboard/vendors/ace-builds/s    2.39 KiB         0.87 KiB
+  rc-min/mode-textile.js
+  weather-dashboard/vendors/ace-builds/s    2.36 KiB         0.75 KiB
+  rc-min/theme-nord_dark.js
+  weather-dashboard/vendors/ace-builds/s    2.35 KiB         0.86 KiB
+  rc-min/theme-clouds.js
+  weather-dashboard/vendors/ace-builds/s    2.35 KiB         1.07 KiB
+  rc-min/mode-vhdl.js
+  weather-dashboard/vendors/ace-builds/s    2.33 KiB         0.83 KiB
+  rc-min/theme-kuroir.js
+  weather-dashboard/js/owl-carousel.js      2.33 KiB         0.50 KiB
+  weather-dashboard/vendors/ace-builds/s    2.32 KiB         0.93 KiB
+  rc-min/snippets/sh.js
+  weather-dashboard/vendors/ace-builds/s    2.32 KiB         0.80 KiB
+  rc-min/snippets/clojure.js
+  weather-dashboard/vendors/ace-builds/s    2.25 KiB         0.91 KiB
+  rc-min/snippets/haskell.js
+  weather-dashboard/vendors/ace-builds/s    2.25 KiB         0.80 KiB
+  rc-min/snippets/markdown.js
+  weather-dashboard/vendors/ace-builds/s    2.23 KiB         0.91 KiB
+  rc-min/mode-lisp.js
+  weather-dashboard/vendors/ace-builds/s    2.19 KiB         0.82 KiB
+  rc-min/theme-xcode.js
+  weather-dashboard/vendors/tinymce/plug    2.19 KiB         0.77 KiB
+  ins/code/plugin.js
+  weather-dashboard/vendors/ace-builds/s    2.00 KiB         0.66 KiB
+  rc-min/snippets/jsoniq.js
+  weather-dashboard/vendors/ace-builds/s    2.00 KiB         0.66 KiB
+  rc-min/snippets/xquery.js
+  weather-dashboard/vendors/ace-builds/s    1.97 KiB         0.73 KiB
+  rc-min/snippets/tcl.js
+  weather-dashboard/vendors/ace-builds/s    1.95 KiB         0.79 KiB
+  rc-min/theme-gruvbox.js
+  weather-dashboard/js/typeahead.js         1.88 KiB         0.85 KiB
+  weather-dashboard/js/sparkline.js         1.87 KiB         0.49 KiB
+  weather-dashboard/js/desktop-notificat    1.83 KiB         0.62 KiB
+  ion.js
+  weather-dashboard/js/calendar.js          1.80 KiB         0.51 KiB
+  weather-dashboard/vendors/ace-builds/s    1.74 KiB         0.74 KiB
+  rc-min/mode-gcode.js
+  weather-dashboard/js/bootstrap-table.j    1.69 KiB         0.59 KiB
+  s
+  weather-dashboard/vendors/ace-builds/s    1.69 KiB         0.70 KiB
+  rc-min/ext-themelist.js
+  weather-dashboard/vendors/ace-builds/s    1.61 KiB         0.61 KiB
+  rc-min/snippets/dart.js
+  weather-dashboard/vendors/ace-builds/s    1.56 KiB         0.64 KiB
+  rc-min/snippets/wollok.js
+  weather-dashboard/vendors/ace-builds/s    1.55 KiB         0.68 KiB
+  rc-min/ext-spellcheck.js
+  weather-dashboard/vendors/ace-builds/s    1.53 KiB         0.69 KiB
+  rc-min/mode-csp.js
+  weather-dashboard/js/codemirror.js        1.53 KiB         0.47 KiB
+  weather-dashboard/vendors/ace-builds/s    1.51 KiB         0.59 KiB
+  rc-min/snippets/io.js
+  weather-dashboard/vendors/ace-builds/s    1.39 KiB         0.51 KiB
+  rc-min/mode-properties.js
+  weather-dashboard/js/form-repeater.js     1.39 KiB         0.60 KiB
+  weather-dashboard/vendors/ace-builds/s    1.38 KiB         0.46 KiB
+  rc-min/snippets/csound_orchestra.js
+  weather-dashboard/js/wizard.js            1.33 KiB         0.42 KiB
+  weather-dashboard/vendors/tinymce/plug    1.31 KiB         0.54 KiB
+  ins/print/plugin.js
+  weather-dashboard/vendors/ace-builds/s    1.25 KiB         0.62 KiB
+  rc-min/ext-hardwrap.js
+  weather-dashboard/vendors/ace-builds/s    1.25 KiB         0.60 KiB
+  rc-min/ext-statusbar.js
+  weather-dashboard/vendors/ace-builds/s    1.24 KiB         0.50 KiB
+  rc-min/snippets/abc.js
+  weather-dashboard/vendors/ace-builds/s    1.24 KiB         0.48 KiB
+  rc-min/snippets/sql.js
+  weather-dashboard/js/iCheck.js            1.22 KiB         0.37 KiB
+  weather-dashboard/js/popover.js           1.21 KiB         0.51 KiB
+  weather-dashboard/vendors/ace-builds/s    1.20 KiB         0.46 KiB
+  rc-min/mode-gitignore.js
+  weather-dashboard/vendors/ace-builds/s    1.19 KiB         0.48 KiB
+  rc-min/ext-linking.js
+  weather-dashboard/vendors/tinymce/plug    1.16 KiB         0.49 KiB
+  ins/hr/plugin.js
+  weather-dashboard/vendors/ace-builds/s    0.98 KiB         0.37 KiB
+  rc-min/snippets/graphqlschema.js
+  weather-dashboard/vendors/ace-builds/s    0.96 KiB         0.42 KiB
+  rc-min/snippets/velocity.js
+  weather-dashboard/js/tabs.js              0.95 KiB         0.30 KiB
+  weather-dashboard/js/todolist.js          0.93 KiB         0.40 KiB
+  weather-dashboard/js/formpickers.js       0.92 KiB         0.32 KiB
+  weather-dashboard/js/avgrund.js           0.89 KiB         0.44 KiB
+  weather-dashboard/vendors/ace-builds/s    0.86 KiB         0.47 KiB
+  rc-min/snippets/diff.js
+  weather-dashboard/vendors/ace-builds/s    0.85 KiB         0.42 KiB
+  rc-min/snippets/textile.js
+  weather-dashboard/vendors/ace-builds/s    0.82 KiB         0.36 KiB
+  rc-min/mode-plain_text.js
+  weather-dashboard/vendors/ace-builds/s    0.82 KiB         0.36 KiB
+  rc-min/snippets/lua.js
+  weather-dashboard/js/data-table.js        0.80 KiB         0.39 KiB
+  weather-dashboard/js/tooltips.js          0.79 KiB         0.41 KiB
+  weather-dashboard/js/hoverable-collaps    0.79 KiB         0.35 KiB
+  e.js
+  weather-dashboard/js/bt-maxLength.js      0.78 KiB         0.26 KiB
+  weather-dashboard/vendors/ace-builds/s    0.76 KiB         0.32 KiB
+  rc-min/snippets/haml.js
+  weather-dashboard/js/dragula.js           0.75 KiB         0.29 KiB
+  weather-dashboard/vendors/ace-builds/s    0.75 KiB         0.35 KiB
+  rc-min/snippets/rst.js
+  weather-dashboard/vendors/ace-builds/s    0.68 KiB         0.31 KiB
+  rc-min/snippets/drools.js
+  weather-dashboard/vendors/ace-builds/s    0.63 KiB         0.27 KiB
+  rc-min/snippets/csound_document.js
+  weather-dashboard/js/modal-demo.js        0.62 KiB         0.38 KiB
+  weather-dashboard/vendors/ace-builds/s    0.61 KiB         0.28 KiB
+  rc-min/snippets/snippets.js
+  weather-dashboard/vendors/ace-builds/s    0.58 KiB         0.29 KiB
+  rc-min/snippets/maze.js
+  weather-dashboard/vendors/ace-builds/s    0.52 KiB         0.25 KiB
+  rc-min/snippets/makefile.js
+  weather-dashboard/vendors/tinymce/plug    0.49 KiB         0.31 KiB
+  ins/colorpicker/plugin.js
+  weather-dashboard/vendors/tinymce/plug    0.49 KiB         0.31 KiB
+  ins/contextmenu/plugin.js
+  weather-dashboard/vendors/tinymce/plug    0.49 KiB         0.31 KiB
+  ins/textcolor/plugin.js
+  weather-dashboard/vendors/ace-builds/s    0.48 KiB         0.23 KiB
+  rc-min/snippets/razor.js
+  weather-dashboard/js/paginate.js          0.48 KiB         0.21 KiB
+  weather-dashboard/vendors/ace-builds/s    0.44 KiB         0.21 KiB
+  rc-min/snippets/fsl.js
+  weather-dashboard/js/file-upload.js       0.39 KiB         0.22 KiB
+  weather-dashboard/js/light-gallery.js     0.39 KiB         0.19 KiB
+  weather-dashboard/vendors/ace-builds/s    0.34 KiB         0.16 KiB
+  rc-min/snippets/php_laravel_blade.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.16 KiB
+  rc-min/snippets/haskell_cabal.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.16 KiB
+  rc-min/snippets/assembly_x86.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.16 KiB
+  rc-min/snippets/csound_score.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.16 KiB
+  rc-min/snippets/soy_template.js
+  weather-dashboard/js/about.a1004bc4.js    0.33 KiB         0.26 KiB
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.16 KiB
+  rc-min/snippets/apache_conf.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.16 KiB
+  rc-min/snippets/applescript.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.16 KiB
+  rc-min/snippets/html_elixir.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.16 KiB
+  rc-min/snippets/visualforce.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.16 KiB
+  rc-min/snippets/autohotkey.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/coldfusion.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/dockerfile.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.16 KiB
+  rc-min/snippets/handlebars.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/livescript.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/objectivec.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.16 KiB
+  rc-min/snippets/plain_text.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/powershell.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/properties.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/typescript.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/batchfile.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/gitignore.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.16 KiB
+  rc-min/snippets/html_ruby.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/mediawiki.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/terraform.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/asciidoc.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/c9search.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/mushcode.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/nunjucks.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/protobuf.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/redshift.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/vbscript.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/ext-error_marker.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/crystal.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/fortran.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/gherkin.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/logtalk.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/luapage.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/verilog.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/csharp.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/eiffel.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/elixir.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/fsharp.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/golang.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/groovy.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/kotlin.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/logiql.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/lucene.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/matlab.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/pascal.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/prisma.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/prolog.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/puppet.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/scheme.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/scrypt.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/smarty.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/smithy.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/sparql.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/stylus.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/turtle.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/cirru.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/cobol.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/curly.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/forth.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/gcode.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/hjson.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/json5.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/julia.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/latex.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/latte.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/mixal.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/mysql.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/nginx.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/ocaml.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/pgsql.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/praat.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/rhtml.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/scala.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/space.js
+  weather-dashboard/vendors/ace-builds/s    0.33 KiB         0.15 KiB
+  rc-min/snippets/swift.js
+  weather-dashboard/vendors/ace-builds/s    0.32 KiB         0.15 KiB
+  rc-min/snippets/abap.js
+  weather-dashboard/vendors/ace-builds/s    0.32 KiB         0.15 KiB
+  rc-min/snippets/alda.js
+  weather-dashboard/vendors/ace-builds/s    0.32 KiB         0.15 KiB
+  rc-min/snippets/apex.js
+  weather-dashboard/vendors/ace-builds/s    0.32 KiB         0.15 KiB
+  rc-min/snippets/glsl.js
+  weather-dashboard/vendors/ace-builds/s    0.32 KiB         0.15 KiB
+  rc-min/snippets/haxe.js
+  weather-dashboard/vendors/ace-builds/s    0.32 KiB         0.15 KiB
+  rc-min/snippets/jack.js
+  weather-dashboard/vendors/ace-builds/s    0.32 KiB         0.15 KiB
+  rc-min/snippets/jade.js
+  weather-dashboard/vendors/ace-builds/s    0.32 KiB         0.15 KiB
+  rc-min/snippets/json.js
+  weather-dashboard/vendors/ace-builds/s    0.32 KiB         0.15 KiB
+  rc-min/snippets/jssm.js
+  weather-dashboard/vendors/ace-builds/s    0.32 KiB         0.15 KiB
+  rc-min/snippets/less.js
+  weather-dashboard/vendors/ace-builds/s    0.32 KiB         0.15 KiB
+  rc-min/snippets/lisp.js
+  weather-dashboard/vendors/ace-builds/s    0.32 KiB         0.15 KiB
+  rc-min/snippets/mask.js
+  weather-dashboard/vendors/ace-builds/s    0.32 KiB         0.15 KiB
+  rc-min/snippets/mips.js
+  weather-dashboard/vendors/ace-builds/s    0.32 KiB         0.15 KiB
+  rc-min/snippets/nsis.js
+  weather-dashboard/vendors/ace-builds/s    0.32 KiB         0.15 KiB
+  rc-min/snippets/raku.js
+  weather-dashboard/vendors/ace-builds/s    0.32 KiB         0.15 KiB
+  rc-min/snippets/rdoc.js
+  weather-dashboard/vendors/ace-builds/s    0.32 KiB         0.15 KiB
+  rc-min/snippets/rust.js
+  weather-dashboard/vendors/ace-builds/s    0.32 KiB         0.15 KiB
+  rc-min/snippets/sass.js
+  weather-dashboard/vendors/ace-builds/s    0.32 KiB         0.15 KiB
+  rc-min/snippets/scad.js
+  weather-dashboard/vendors/ace-builds/s    0.32 KiB         0.15 KiB
+  rc-min/snippets/scss.js
+  weather-dashboard/vendors/ace-builds/s    0.32 KiB         0.15 KiB
+  rc-min/snippets/slim.js
+  weather-dashboard/vendors/ace-builds/s    0.32 KiB         0.15 KiB
+  rc-min/snippets/text.js
+  weather-dashboard/vendors/ace-builds/s    0.32 KiB         0.15 KiB
+  rc-min/snippets/toml.js
+  weather-dashboard/vendors/ace-builds/s    0.32 KiB         0.15 KiB
+  rc-min/snippets/twig.js
+  weather-dashboard/vendors/ace-builds/s    0.32 KiB         0.15 KiB
+  rc-min/snippets/vhdl.js
+  weather-dashboard/vendors/ace-builds/s    0.32 KiB         0.15 KiB
+  rc-min/snippets/yaml.js
+  weather-dashboard/vendors/ace-builds/s    0.32 KiB         0.15 KiB
+  rc-min/snippets/zeek.js
+  weather-dashboard/vendors/ace-builds/s    0.32 KiB         0.15 KiB
+  rc-min/snippets/ada.js
+  weather-dashboard/vendors/ace-builds/s    0.32 KiB         0.15 KiB
+  rc-min/snippets/aql.js
+  weather-dashboard/vendors/ace-builds/s    0.32 KiB         0.15 KiB
+  rc-min/snippets/asl.js
+  weather-dashboard/vendors/ace-builds/s    0.32 KiB         0.15 KiB
+  rc-min/snippets/csp.js
+  weather-dashboard/vendors/ace-builds/s    0.32 KiB         0.15 KiB
+  rc-min/snippets/dot.js
+  weather-dashboard/vendors/ace-builds/s    0.32 KiB         0.15 KiB
+  rc-min/snippets/ejs.js
+  weather-dashboard/vendors/ace-builds/s    0.32 KiB         0.15 KiB
+  rc-min/snippets/elm.js
+  weather-dashboard/vendors/ace-builds/s    0.32 KiB         0.15 KiB
+  rc-min/snippets/ftl.js
+  weather-dashboard/vendors/ace-builds/s    0.32 KiB         0.15 KiB
+  rc-min/snippets/ini.js
+  weather-dashboard/vendors/ace-builds/s    0.32 KiB         0.15 KiB
+  rc-min/snippets/jsx.js
+  weather-dashboard/vendors/ace-builds/s    0.32 KiB         0.15 KiB
+  rc-min/snippets/mel.js
+  weather-dashboard/vendors/ace-builds/s    0.32 KiB         0.15 KiB
+  rc-min/snippets/nim.js
+  weather-dashboard/vendors/ace-builds/s    0.32 KiB         0.15 KiB
+  rc-min/snippets/nix.js
+  weather-dashboard/vendors/ace-builds/s    0.32 KiB         0.15 KiB
+  rc-min/snippets/pig.js
+  weather-dashboard/vendors/ace-builds/s    0.32 KiB         0.15 KiB
+  rc-min/snippets/qml.js
+  weather-dashboard/vendors/ace-builds/s    0.32 KiB         0.15 KiB
+  rc-min/snippets/red.js
+  weather-dashboard/vendors/ace-builds/s    0.32 KiB         0.15 KiB
+  rc-min/snippets/sjs.js
+  weather-dashboard/vendors/ace-builds/s    0.32 KiB         0.15 KiB
+  rc-min/snippets/svg.js
+  weather-dashboard/vendors/ace-builds/s    0.32 KiB         0.15 KiB
+  rc-min/snippets/tsx.js
+  weather-dashboard/vendors/ace-builds/s    0.32 KiB         0.15 KiB
+  rc-min/snippets/xml.js
+  weather-dashboard/vendors/ace-builds/s    0.32 KiB         0.15 KiB
+  rc-min/snippets/d.js
+  weather-dashboard/vendors/ace-builds/s    0.32 KiB         0.15 KiB
+  rc-min/mode-text.js
+  weather-dashboard/js/circle-progress.j    0.30 KiB         0.22 KiB
+  s
+  weather-dashboard/js/tablesorter.js       0.24 KiB         0.12 KiB
+  weather-dashboard/js/ace.js               0.23 KiB         0.18 KiB
+  weather-dashboard/js/select2.js           0.23 KiB         0.13 KiB
+  weather-dashboard/vendors/tinymce/plug    0.22 KiB         0.16 KiB
+  ins/directionality/index.js
+  weather-dashboard/vendors/tinymce/plug    0.22 KiB         0.16 KiB
+  ins/insertdatetime/index.js
+  weather-dashboard/js/clipboard.js         0.22 KiB         0.14 KiB
+  weather-dashboard/js/demo.js              0.22 KiB         0.16 KiB
+  weather-dashboard/vendors/tinymce/plug    0.22 KiB         0.15 KiB
+  ins/searchreplace/index.js
+  weather-dashboard/vendors/tinymce/plug    0.21 KiB         0.15 KiB
+  ins/legacyoutput/index.js
+  weather-dashboard/vendors/tinymce/plug    0.21 KiB         0.15 KiB
+  ins/spellchecker/index.js
+  weather-dashboard/vendors/tinymce/plug    0.21 KiB         0.15 KiB
+  ins/visualblocks/index.js
+  weather-dashboard/vendors/tinymce/plug    0.21 KiB         0.15 KiB
+  ins/colorpicker/index.js
+  weather-dashboard/vendors/tinymce/plug    0.21 KiB         0.15 KiB
+  ins/contextmenu/index.js
+  weather-dashboard/vendors/tinymce/plug    0.21 KiB         0.15 KiB
+  ins/nonbreaking/index.js
+  weather-dashboard/vendors/tinymce/plug    0.21 KiB         0.15 KiB
+  ins/noneditable/index.js
+  weather-dashboard/vendors/tinymce/plug    0.21 KiB         0.15 KiB
+  ins/textpattern/index.js
+  weather-dashboard/vendors/tinymce/plug    0.21 KiB         0.15 KiB
+  ins/visualchars/index.js
+  weather-dashboard/vendors/tinymce/plug    0.21 KiB         0.15 KiB
+  ins/autoresize/index.js
+  weather-dashboard/vendors/tinymce/plug    0.21 KiB         0.15 KiB
+  ins/codesample/index.js
+  weather-dashboard/vendors/tinymce/plug    0.21 KiB         0.15 KiB
+  ins/fullscreen/index.js
+  weather-dashboard/vendors/tinymce/plug    0.21 KiB         0.15 KiB
+  ins/imagetools/index.js
+  weather-dashboard/vendors/tinymce/plug    0.21 KiB         0.15 KiB
+  ins/emoticons/index.js
+  weather-dashboard/vendors/tinymce/plug    0.21 KiB         0.15 KiB
+  ins/importcss/index.js
+  weather-dashboard/vendors/tinymce/plug    0.21 KiB         0.15 KiB
+  ins/pagebreak/index.js
+  weather-dashboard/vendors/tinymce/plug    0.21 KiB         0.15 KiB
+  ins/quickbars/index.js
+  weather-dashboard/vendors/tinymce/plug    0.21 KiB         0.15 KiB
+  ins/textcolor/index.js
+  weather-dashboard/vendors/tinymce/plug    0.21 KiB         0.15 KiB
+  ins/wordcount/index.js
+  weather-dashboard/vendors/tinymce/plug    0.20 KiB         0.15 KiB
+  ins/autolink/index.js
+  weather-dashboard/vendors/tinymce/plug    0.20 KiB         0.15 KiB
+  ins/autosave/index.js
+  weather-dashboard/vendors/tinymce/plug    0.20 KiB         0.15 KiB
+  ins/fullpage/index.js
+  weather-dashboard/vendors/tinymce/plug    0.20 KiB         0.15 KiB
+  ins/tabfocus/index.js
+  weather-dashboard/vendors/tinymce/plug    0.20 KiB         0.15 KiB
+  ins/template/index.js
+  weather-dashboard/vendors/tinymce/plug    0.20 KiB         0.15 KiB
+  ins/advlist/index.js
+  weather-dashboard/vendors/tinymce/plug    0.20 KiB         0.15 KiB
+  ins/charmap/index.js
+  weather-dashboard/vendors/tinymce/plug    0.20 KiB         0.15 KiB
+  ins/preview/index.js
+  weather-dashboard/vendors/tinymce/plug    0.20 KiB         0.15 KiB
+  ins/anchor/index.js
+  weather-dashboard/vendors/tinymce/plug    0.20 KiB         0.15 KiB
+  ins/bbcode/index.js
+  weather-dashboard/vendors/tinymce/icon    0.19 KiB         0.15 KiB
+  s/default/index.js
+  weather-dashboard/vendors/tinymce/plug    0.19 KiB         0.15 KiB
+  ins/image/index.js
+  weather-dashboard/vendors/tinymce/plug    0.19 KiB         0.15 KiB
+  ins/lists/index.js
+  weather-dashboard/vendors/tinymce/plug    0.19 KiB         0.15 KiB
+  ins/media/index.js
+  weather-dashboard/vendors/tinymce/plug    0.19 KiB         0.15 KiB
+  ins/paste/index.js
+  weather-dashboard/vendors/tinymce/plug    0.19 KiB         0.15 KiB
+  ins/print/index.js
+  weather-dashboard/vendors/tinymce/plug    0.19 KiB         0.15 KiB
+  ins/table/index.js
+  weather-dashboard/vendors/tinymce/them    0.19 KiB         0.14 KiB
+  es/mobile/index.js
+  weather-dashboard/vendors/tinymce/them    0.19 KiB         0.15 KiB
+  es/silver/index.js
+  weather-dashboard/vendors/tinymce/plug    0.19 KiB         0.15 KiB
+  ins/code/index.js
+  weather-dashboard/vendors/tinymce/plug    0.19 KiB         0.14 KiB
+  ins/help/index.js
+  weather-dashboard/vendors/tinymce/plug    0.19 KiB         0.15 KiB
+  ins/link/index.js
+  weather-dashboard/vendors/tinymce/plug    0.19 KiB         0.15 KiB
+  ins/save/index.js
+  weather-dashboard/vendors/tinymce/plug    0.19 KiB         0.15 KiB
+  ins/toc/index.js
+  weather-dashboard/vendors/tinymce/plug    0.19 KiB         0.14 KiB
+  ins/hr/index.js
+  weather-dashboard/js/off-canvas.js        0.18 KiB         0.15 KiB
+  weather-dashboard/js/jquery-file-uploa    0.18 KiB         0.15 KiB
+  d.js
+  weather-dashboard/js/tight-grid.js        0.17 KiB         0.14 KiB
+  weather-dashboard/js/mapael.js            0.17 KiB         0.13 KiB
+  weather-dashboard/js/profile-demo.js      0.16 KiB         0.14 KiB
+  weather-dashboard/js/listify.js           0.15 KiB         0.14 KiB
+  weather-dashboard/js/dropzone.js          0.11 KiB         0.12 KiB
+  weather-dashboard/js/cropper.js           0.10 KiB         0.11 KiB
+  weather-dashboard/js/inputmask.js         0.10 KiB         0.10 KiB
+  weather-dashboard/js/dropify.js           0.07 KiB         0.08 KiB
+  weather-dashboard/css/vertical-layout-    898.10 KiB       75.86 KiB
+  light/style.css
+  weather-dashboard/vendors/mdi/css/mate    172.39 KiB       29.51 KiB
+  rialdesignicons.min.css
+  weather-dashboard/vendors/tinymce/skin    71.31 KiB        10.48 KiB
+  s/ui/oxide/skin.css
+  weather-dashboard/vendors/tinymce/skin    71.17 KiB        10.49 KiB
+  s/ui/oxide-dark/skin.css
+  weather-dashboard/vendors/tinymce/skin    60.09 KiB        9.71 KiB
+  s/ui/oxide/skin.min.css
+  weather-dashboard/vendors/tinymce/skin    59.98 KiB        9.71 KiB
+  s/ui/oxide-dark/skin.min.css
+  weather-dashboard/vendors/lightgallery    46.22 KiB        2.19 KiB
+  /css/lg-transitions.css
+  weather-dashboard/vendors/lightgallery    38.16 KiB        1.90 KiB
+  /css/lg-transitions.min.css
+  weather-dashboard/vendors/summernote/d    37.17 KiB        6.11 KiB
+  ist/summernote-lite.css
+  weather-dashboard/vendors/flag-icon-cs    33.17 KiB        2.75 KiB
+  s/css/flag-icon.min.css
+  weather-dashboard/vendors/font-awesome    30.27 KiB        6.89 KiB
+  /css/font-awesome.min.css
+  weather-dashboard/vendors/summernote/d    29.88 KiB        5.43 KiB
+  ist/summernote-lite.min.css
+  weather-dashboard/vendors/codemirror/a    25.87 KiB        18.38 KiB
+  mbiance.css
+  weather-dashboard/vendors/lightgallery    25.04 KiB        4.21 KiB
+  /css/lightgallery.css
+  weather-dashboard/vendors/quill/quill.    24.16 KiB        3.57 KiB
+  snow.css
+  weather-dashboard/vendors/tinymce/skin    24.04 KiB        3.66 KiB
+  s/ui/oxide-dark/skin.mobile.css
+  weather-dashboard/vendors/tinymce/skin    24.04 KiB        3.66 KiB
+  s/ui/oxide/skin.mobile.css
+  weather-dashboard/vendors/tinymce/skin    23.60 KiB        5.72 KiB
+  s/ui/oxide/content.css
+  weather-dashboard/vendors/tinymce/skin    23.52 KiB        5.69 KiB
+  s/ui/oxide-dark/content.inline.css
+  weather-dashboard/vendors/tinymce/skin    23.52 KiB        5.69 KiB
+  s/ui/oxide/content.inline.css
+  weather-dashboard/vendors/tinymce/skin    23.17 KiB        5.67 KiB
+  s/ui/oxide-dark/content.css
+  weather-dashboard/vendors/summernote/d    22.89 KiB        3.97 KiB
+  ist/summernote-bs4.css
+  weather-dashboard/vendors/summernote/d    22.89 KiB        3.97 KiB
+  ist/summernote-bs5.css
+  weather-dashboard/vendors/summernote/d    22.73 KiB        3.93 KiB
+  ist/summernote.css
+  weather-dashboard/vendors/tinymce/skin    21.32 KiB        5.44 KiB
+  s/ui/oxide/content.min.css
+  weather-dashboard/vendors/tinymce/skin    21.26 KiB        5.42 KiB
+  s/ui/oxide-dark/content.inline.min.css
+  weather-dashboard/vendors/tinymce/skin    21.26 KiB        5.42 KiB
+  s/ui/oxide/content.inline.min.css
+  weather-dashboard/vendors/tinymce/skin    20.95 KiB        5.39 KiB
+  s/ui/oxide-dark/content.min.css
+  weather-dashboard/vendors/x-editable/b    20.71 KiB        3.41 KiB
+  ootstrap-editable.css
+  weather-dashboard/vendors/lightgallery    20.53 KiB        3.76 KiB
+  /css/lightgallery.min.css
+  weather-dashboard/vendors/tinymce/skin    20.51 KiB        2.89 KiB
+  s/ui/oxide-dark/skin.mobile.min.css
+  weather-dashboard/vendors/tinymce/skin    20.51 KiB        2.89 KiB
+  s/ui/oxide/skin.mobile.min.css
+  weather-dashboard/vendors/summernote/d    19.06 KiB        3.51 KiB
+  ist/summernote-bs4.min.css
+  weather-dashboard/vendors/summernote/d    19.06 KiB        3.51 KiB
+  ist/summernote-bs5.min.css
+  weather-dashboard/vendors/summernote/d    18.94 KiB        3.48 KiB
+  ist/summernote.min.css
+  weather-dashboard/vendors/pwstabs/jque    18.22 KiB        1.79 KiB
+  ry.pwstabs.min.css
+  weather-dashboard/vendors/typicons/typ    17.60 KiB        2.68 KiB
+  icons.css
+  weather-dashboard/vendors/ti-icons/css    17.07 KiB        2.93 KiB
+  /themify-icons.css
+  weather-dashboard/vendors/select2-boot    16.40 KiB        2.28 KiB
+  strap-theme/select2-bootstrap.min.css
+  weather-dashboard/vendors/bootstrap-da    15.36 KiB        2.02 KiB
+  tepicker/bootstrap-datepicker.min.css
+  weather-dashboard/vendors/select2/sele    14.62 KiB        1.95 KiB
+  ct2.min.css
+  weather-dashboard/vendors/ion-rangesli    12.98 KiB        2.25 KiB
+  der/css/ion.rangeSlider.css
+  weather-dashboard/vendors/simple-line-    12.65 KiB        2.65 KiB
+  icons/css/simple-line-icons.css
+  weather-dashboard/vendors/datatables.n    12.13 KiB        1.97 KiB
+  et-bs4/dataTables.bootstrap4.css
+  weather-dashboard/vendors/tempusdominu    11.69 KiB        1.86 KiB
+  s-bootstrap-4/tempusdominus-bootstrap-
+  4.min.css
+  weather-dashboard/vendors/dropzone/dro    11.51 KiB        1.61 KiB
+  pzone.css
+  weather-dashboard/vendors/simplemde/si    10.67 KiB        2.70 KiB
+  mplemde.min.css
+  weather-dashboard/vendors/dropify/drop    9.63 KiB         1.98 KiB
+  ify.min.css
+  weather-dashboard/vendors/codemirror/c    8.50 KiB         2.45 KiB
+  odemirror.css
+  weather-dashboard/vendors/feather/feat    6.96 KiB         1.33 KiB
+  her.css
+  weather-dashboard/vendors/jquery-asCol    5.81 KiB         1.38 KiB
+  orPicker/css/asColorPicker.min.css
+  weather-dashboard/vendors/jquery-toast    4.40 KiB         2.41 KiB
+  -plugin/jquery.toast.min.css
+  weather-dashboard/vendors/nouislider/n    3.91 KiB         1.16 KiB
+  ouislider.min.css
+  weather-dashboard/js/select.dataTables    3.83 KiB         0.67 KiB
+  .min.css
+  weather-dashboard/css/app.8249529c.css    3.29 KiB         1.02 KiB
+  weather-dashboard/vendors/jquery-bar-r    2.82 KiB         0.74 KiB
+  ating/examples.css
+  weather-dashboard/vendors/jquery-file-    2.81 KiB         0.81 KiB
+  upload/uploadfile.css
+  weather-dashboard/vendors/css/vendor.b    2.65 KiB         0.65 KiB
+  undle.base.css
+  weather-dashboard/vendors/tinymce/skin    2.03 KiB         0.78 KiB
+  s/content/document/content.css
+  weather-dashboard/vendors/tinymce/skin    1.98 KiB         0.74 KiB
+  s/content/dark/content.css
+  weather-dashboard/vendors/tinymce/skin    1.92 KiB         0.72 KiB
+  s/content/writer/content.css
+  weather-dashboard/vendors/tinymce/skin    1.89 KiB         0.71 KiB
+  s/content/default/content.css
+  weather-dashboard/vendors/jquery-bar-r    1.63 KiB         0.43 KiB
+  ating/bars-pill.css
+  weather-dashboard/vendors/tinymce/skin    1.46 KiB         0.66 KiB
+  s/content/document/content.min.css
+  weather-dashboard/vendors/tinymce/skin    1.43 KiB         0.63 KiB
+  s/content/dark/content.min.css
+  weather-dashboard/vendors/lightgallery    1.42 KiB         0.48 KiB
+  /css/lg-fb-comment-box.css
+  weather-dashboard/vendors/jquery-bar-r    1.42 KiB         0.42 KiB
+  ating/fontawesome-stars-o.css
+  weather-dashboard/vendors/tinymce/skin    1.39 KiB         0.61 KiB
+  s/content/writer/content.min.css
+  weather-dashboard/vendors/tinymce/skin    1.37 KiB         0.60 KiB
+  s/content/default/content.min.css
+  weather-dashboard/vendors/jquery-bar-r    1.34 KiB         0.41 KiB
+  ating/bars-reversed.css
+  weather-dashboard/vendors/jquery-bar-r    1.25 KiB         0.40 KiB
+  ating/bars-1to10.css
+  weather-dashboard/vendors/jquery-bar-r    1.24 KiB         0.37 KiB
+  ating/bars-horizontal.css
+  weather-dashboard/vendors/jquery-bar-r    1.22 KiB         0.39 KiB
+  ating/bars-movie.css
+  weather-dashboard/vendors/jquery-bar-r    1.16 KiB         0.40 KiB
+  ating/bars-square.css
+  weather-dashboard/vendors/lightgallery    0.99 KiB         0.33 KiB
+  /css/lg-fb-comment-box.min.css
+  weather-dashboard/vendors/jquery-bar-r    0.94 KiB         0.33 KiB
+  ating/fontawesome-stars.css
+  weather-dashboard/vendors/jquery-bar-r    0.93 KiB         0.34 KiB
+  ating/bootstrap-stars.css
+  weather-dashboard/vendors/tinymce/skin    0.86 KiB         0.44 KiB
+  s/ui/oxide-dark/skin.shadowdom.css
+  weather-dashboard/vendors/tinymce/skin    0.86 KiB         0.44 KiB
+  s/ui/oxide/skin.shadowdom.css
+  weather-dashboard/vendors/jquery-bar-r    0.81 KiB         0.30 KiB
+  ating/css-stars.css
+  weather-dashboard/vendors/tinymce/skin    0.76 KiB         0.42 KiB
+  s/ui/oxide-dark/skin.shadowdom.min.css
+  weather-dashboard/vendors/tinymce/skin    0.76 KiB         0.42 KiB
+  s/ui/oxide/skin.shadowdom.min.css
+  weather-dashboard/vendors/jquery-tags-    0.75 KiB         0.37 KiB
+  input/jquery.tagsinput.min.css
+  weather-dashboard/vendors/tinymce/skin    0.71 KiB         0.42 KiB
+  s/ui/oxide-dark/content.mobile.css
+  weather-dashboard/vendors/tinymce/skin    0.71 KiB         0.42 KiB
+  s/ui/oxide/content.mobile.css
+  weather-dashboard/vendors/tinymce/skin    0.53 KiB         0.34 KiB
+  s/ui/oxide-dark/content.mobile.min.css
+  weather-dashboard/vendors/tinymce/skin    0.53 KiB         0.34 KiB
+  s/ui/oxide/content.mobile.min.css
+  weather-dashboard/vendors/summernote/d    0.25 KiB         0.18 KiB
+  ist/plugin/databasic/summernote-ext-da
+  tabasic.css
+
+  Images and other types of assets omitted.
+  Build at: 2023-03-16T18:09:14.975Z - Hash: 4d18f1ca67ee6c23 - Time: 8914ms
+
+ DONE  Build complete. The weather-dashboard directory is ready to be deployed.
+ INFO  Check out deployment instructions at https://cli.vuejs.org/guide/deployment.html
+       
