@@ -11,7 +11,7 @@ export default {
         HomeView,
     },
 };
-</script>
+</script> 
 
 <style lang="scss">
 #app {
